@@ -1,0 +1,16 @@
+
+Sammanfattning av den första webbsidan:
+Artikeln handlar om att felsöka problem med fjärrskrivbordsanslutningar.
+Den diskuterar att kontrollera statusen för RDP-protokollet, kontrollera om grupprincipobjekt (GPO) blockerar RDP och kontrollera statusen för RDP-tjänster.
+Andra felsökningsåtgärder inkluderar att kontrollera RDP-lyssnarporten, det självsignerade RDP-certifikatet och brandväggsinställningar.
+Sammanfattning av den andra webbsidan:
+Artikeln handlar om att felsöka problem med fjärrskrivbordsanslutningar från en Windows-klient.
+Den diskuterar att kontrollera nätverksanslutningen, kontrollera RDP-inställningarna på fjärrdatorn och kontrollera att användarkontot har behörighet att ansluta fjärranslutet.
+Andra felsökningsåtgärder inkluderar att kontrollera NLA-inställningar, certifikat, smarta kort, skärminställningar och licensering.
+Sammanfattning av den tredje webbsidan:
+Artikeln ger en allmän översikt över hur man felsöker hårdvaruproblem.
+Den diskuterar att identifiera problemet, isolera orsaken, undersöka och felsöka och byta ut eller reparera den felaktiga hårdvaran.
+Sammanfattning av den fjärde webbsidan:
+Den här utbildningsmodulen fokuserar på att felsöka hårdvaru- och drivrutinrelaterade problem i en Windows-miljö.
+Den täcker att identifiera hårdvaruproblem, felsöka drivrutiner och lösa vanliga hårdvaruproblem.
+Den använder också felsökningsverktyg som inbyggda Windows-verktyg som Felsökning och Prestandamonitor för att diagnostisera och lösa problem.
