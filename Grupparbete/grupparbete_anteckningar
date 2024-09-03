@@ -1,0 +1,195 @@
+Vecka 1 : 
+ 
+Teoretisk Analys av Fjärrhantering: 
+Beskriv konceptet fjärrhantering. Vad innebär fjärrhantering i en IT-miljö? Diskutera olika användningsområden för fjärrhantering och hur det kan bidra till effektivare IT-stöd och underhåll. 
+Fjärrhantering är ett sätt att få kontroll och styra över en klient som är stationerad på annan plats, för att kunna ge support på distans. Med fjärrhantering innebär det att IT support företag kan ge support snabbare och effektivare vilket även gör det billigare för företag. 
+ 
+Olika användingsområden för fjärrhantering är tex, Microsoft Remote Desktop, Remote Desktop Protocol.  
+ 
+Identifiera och förklara minst tre olika format av fjärrhantering (t.ex. Remote Desktop, VPN, molnbaserade lösningar, Teamviewer). Diskutera för- och nackdelar med var och en av dessa metoder. 
+ 
+Jämförelse av Klientoperativsystem: 
+Välj tre olika klientoperativsystem (t.ex. Windows, macOS, Linux) och undersök hur varje system hanterar fjärrhantering. Vilka verktyg och metoder är inbyggda eller vanligt förekommande i respektive operativsystem för att möjliggöra fjärrhantering? 
+ 
+Jämför och kontrastera de olika systemen med avseende på fjärrhantering möjligheter. Vilka är de viktigaste skillnaderna? Hur påverkar dessa skillnader valet av fjärrhantering metoder i en blandad IT-miljö. 
+ 
+Reflektion: Reflektera på fredag vad vi har gjort under veckan. 
+Reflektera över hur valet av klientoperativsystem kan påverka en organisations fjärrhanteringsstrategi. Diskutera hur olika fjärrhantering metoder kan integreras i en heterogen miljö med flera operativsystem. 
+ 
+Självreflektion Kring Studeresultat för veckans gång: 2 September 
+Ställ er själva dessa frågor för att verifiera er inlärning och studieprestation. 
+- Förstår jag hur fjärrhantering fungerar rent teknologiskt, kan sättas upp, och användas? 
+- Förstår jag hur fjärrhantering brukas i rollen som Technical Operations Specialist? 
+- Förstår jag hur klientoperativsystemet kan ha inverkan på mitt arbete över fjärrkoppling? 
+Om ja på dessa så har ni tagit till er 100% av veckans målsättningar :) 
+ 
+
+Vecka 2 
+1. Analys av Hårdvarurelaterade Problem: 
+- Beskriv tre vanliga hårdvarurelaterade problem (t.ex. defekta nätverkskort, hårddiskfel, minnesfel) som kan påverka en dator i en IT-miljö.  
+ 
+-För varje problem, förklara hur det kan identifieras, vilka symptom som ofta uppträder, och vilka verktyg som kan användas för att diagnostisera och lösa problemet.  
+ 
+Vad som  helst.  
+ 
+Glapp i sladd. - datorn startar inte, Symptomen som uppträder vid glapp i sladd är att datorn inte startar alls då du inte har någon ström inkopplad eftersom sladden glappar. För att lösa det här problemet är det endast att kolla ifall sladden till din powersupply sitter i.  
+ 
+Grafikkortsproblem - Grafikkortet kan ha glapp ifrån PIN uttaget på moderkortet. Symptomen är att du inte får någon bild på din enhet ifall grafikkortet inte skulle vara inkopplad. Man kan lösa det här problemet genom att checka ditt grafikkort ifall det sitter löst eller inte fysiskt i din dator. 
+ 
+Kylningsproblem - Enheten kan upplevas som långsam eller plötsligt stänga ner sig ifall den ej blir kyld till en acceptabel nivå. Detta kan diagnostisera inom operativsystemet med programvara som kollar temperaturer och program som stress testar hårdvaran. Om enheten är ovanligt varm (väll över 95 celsius) så ska man kolla luftflödet och ifall fläktarna funkar. Döende fläktar brukar låta konstigt. Om inget fel upptäcks med kylningssystemet så kan man ersätta kylpastan på processorerna.  
+ 
+Mänsklig faktor - spiller kaffe 
+ 
+ 
+-Diskutera hur dessa hårdvaruproblem kan påverka fjärrhantering, och vilka förebyggande åtgärder som kan vidtas för att minimera risken för dessa problem. 
+ 
+Uppstartsproblem: Hårddiskfel, minnesfel, ramminne, dessa fel kan påverka uppstartsproblem. 
+Systemkrascher: Systemkrascher kan leda till att fjärranslutningar avbryts 
+Applikationsfel: Låg tillgång till RAM eller CPU  
+Prestandafel: Långsamma komponenter i din enhet kan påverka snabba problemlösningar och en snabb prestanda.  
+Datorn du försöker ansluta till är i sleep mode - Kan väckas via LAN/nätverk i BIOS/UEFI? 
+ 
+2. Analys av Nätverksrelaterade Problem: 
+- Identifiera och beskriv tre vanliga nätverksrelaterade problem (t.ex. DNS-problem, IP-konflikter, svag trådlös signal) som kan uppstå i en IT-miljö.  
+ 
+Svag signal - svag signal kan öka risken för oavsiktlig anslutning till osäkra eller oönskade trådlösa nätverk, vilket kan påverka säkerheten vid fjärrhantering. 
+ 
+Webbsidor går inte att nås - DNS problem (it is always DNS!) - kontrollera DNS-inställningar i nätverksanslutningen, har du DNS problem kan du få problem med fjärranslutning kan inte matcha användarnamn till IP-adresser. Lösning: rensa DNS-cachen  - kan använda kommandot kommandot ipconfig /flushdns. Om datum och tid är felaktigt konfigurerat på enheten så kan du påkomma problem med att ansluta till webbsidor och annat via nätet. 
+ 
+Nätverksproblem  
+- Enheter kan inte ansluta till nätverket eller får intermittenta anslutningsproblem. 
+- Prestandaproblem: Nätverkskommunikationen kan bli långsam eller oregelbunden. 
+Vanliga konsultärenden: 
+ - Felsökning av DHCP-serverkonfiguration: Konsulter kontrollerar och åtgärdar konfigurationsproblem på DHCP-servrar för att förhindra IP-konflikter. 
+ - Manuell IP-konfiguration: Konsulter hjälper till att identifiera och korrigera manuellt konfigurerade IP-adresser som kan orsaka konflikter. 
+ - Nätverksdesign: Konsulter kan behöva omdesigna IP-adressutrymmet eller implementera bättre IP-administrationspraxis. 
+ 
+Felmeddelande: “DNS_PROBE_FINISHED_NXDOMAIN” eller “Server IP address could not be found.” 
+ 
+IP konflikter:  felmeddelande om att IP-adressen redan används på nätverket. - fjärrhantering kan vara omöjlig 
+“TURN IT ON AND OFF AGAIN…” - dator och router -  
+ipconfig renew 
+ipconfig /release  
+ 
+Fjärrhantering: Svag trådlös signal kan leda till att enheter får dålig eller instabil nätverksanslutning och den kan påverka användarnas  produktivitet och förmågan. 
+ 
+För varje problem, förklara hur det kan identifieras och lösas. Diskutera vilka felsökningsmetoder och verktyg som är mest effektiva för att hantera dessa problem. 
+ 
+Utvärdera hur dessa nätverksproblem kan påverka fjärrhantering, särskilt när man försöker ansluta till enheter på distans. Diskutera potentiella lösningar för att säkerställa stabila fjärranslutningar. 
+ 
+3. Fjärrhanterings-förhindrande Problem: 
+Analysera scenarion där fjärrhantering hindras av problem som inte är direkt relaterade till hårdvara eller nätverk (t.ex. säkerhetsinställningar, användarbehörigheter, felaktiga konfigurationer). 
+Diskutera hur dessa problem kan förebyggas och lösas. Fokusera på de steg som kan tas för att upptäcka och åtgärda sådana problem innan de orsakar avbrott i fjärr hanteringen 
+ 
+Säkerhetsinställningar 
+- Brandväggsregler  
+- Om brandväggar är felaktigt konfigurerade kan de blockera fjärranslutningar. Strikta säkerhetsregler kan förhindra att vissa portar eller protokoll används för fjärrhantering. 
+   
+-Antivirus och säkerhetsprogram  
+- Säkerhetsprogram kan blockera fjärrhanteringsverktyg genom att flagga dem som potentiella hot, även om de är legitim 
+ 
+-Säkerhetsuppdateringar 
+- Nya säkerhetsuppdateringar kan ibland oavsiktligt stänga av fjärrhanteringsfunktioner eller införa nya säkerhetskrav som inte omedelbart upptäcks. 
+ 
+Användarbehörigheter 
+Otillräckliga behörigheter 
+ Användaren som försöker utföra fjärrhantering kanske inte har tillräckliga behörigheter. Detta kan hända om användaren inte är administratör eller om deras konto saknar specifika rättigheter 
+Felaktig användarautentisering 
+Om autentiseringsprotokoll, som Active Directory, är felkonfigurerade, kan detta hindra korrekt identifiering och åtkomst, vilket resulterar i avvisade fjärrhanteringsförsök.  
+Lokal säkerhetspolicy 
+På vissa system kan lokala säkerhetspolicys vara inställda för att begränsa fjärrhantering till specifika användare eller grupper, vilket kan blockera åtkomst för andra användare 
+Felaktiga konfigurationer 
+- Felkonfigurerade fjärrhanteringsverktyg:  
+-Om fjärrhanteringsprogramvara är felkonfigurerad, till exempel felaktiga inställningar för anslutningsportar, IP-filter eller timeout-värden, kan det leda till misslyckade anslutningsförsök. 
+    - Mismatch i protokoll och versioner:  
+-Om fjärrhanteringsverktyget och målsystemet använder olika versioner av ett protokoll eller om de inte är korrekt synkroniserade, kan detta hindra fjärråtkomst. 
+    - Konfigurationskonflikter:  
+-Olika systemkomponenter kan vara i konflikt med varandra, till exempel om flera tjänster försöker använda samma port eller om vissa tjänster är beroende av inställningar som inte är kompatibla med fjärrhantering. 
+ 
+4. Problem med certifikat och kryptering 
+    	
+- Ogiltiga eller utgångna certifikat:  
+-För säkra fjärrhanteringsanslutningar är det vanligt att använda SSL/TLS-certifikat. Om dessa 	
+certifikat har gått ut eller inte är korrekt installerade, kan det blockera fjärranslutningar. 
+   	
+- Felaktig krypteringskonfiguration:  
+-Felaktig inställning av krypteringsmetoder kan leda till att anslutningen misslyckas, särskilt om 	
+fjärrhanteringsverktyget eller servern kräver en specifik krypteringsstandard som inte är 	
+	
+konfigurerad korrekt. 
+ 
+5. Policys för fjärråtkomst 
+    - Gruppolicyer (GPOs): I en Windows-miljö kan felkonfigurerade gruppolicyer blockera fjärråtkomst genom att till exempel hindra användare från att logga in via fjärrskrivbord. 
+    - Fjärrhanteringsrestriktioner: Företag kan medvetet ha infört policyer som begränsar fjärrhantering till vissa tider på dygnet eller till specifika IP-adresser. 
+ 
+6. Licensproblem 
+    - Licensrestriktioner: Vissa fjärrhanteringsverktyg kräver licenser för att aktivera alla funktioner. Om dessa licenser inte är korrekt installerade eller har löpt ut kan detta begränsa fjärråtkomsten. 
+    - Användar- eller sessionsbegränsningar: Verktyg kan också ha begränsningar på antal samtidiga sessioner eller användare, och att överskrida dessa gränser kan hindra fjärrhantering. 
+7. Operativsystemsrestriktioner 
+    - Specifika OS-inställningar: Olika operativsystem har sina egna inställningar och begränsningar för fjärrhantering, som kan hindra anslutningar om de inte är korrekt konfigurerade. 
+    - Mjukvaruuppdateringar: Uppdateringar till operativsystemet kan ibland ändra inställningar eller inaktivera funktioner som är kritiska för fjärrhantering. 
+ 
+Dessa scenarier visar att även om fjärrhantering är beroende av stabil hårdvara och nätverksinfrastruktur, så är det också mycket sårbart för problem relaterade till säkerhetsinställningar, användarbehörigheter, och olika typer av konfigurationer. En genomgående granskning och förståelse av dessa faktorer är avgörande för effektiv fjärrhantering. 
+ 
+Fallstudie och Reflektion: 
+Reflektera över vilka lärdomar som kan dras från detta och hur de kan appliceras i verkliga IT-miljöer. 
+ 
+1. Vikten av Proaktivitet och Förberedelse 
+Lärdom: 
+ Proaktivitet är avgörande för att förhindra fjärrhanteringsproblem. Genom att ha en klar förståelse av säkerhetsinställningar, användarbehörigheter och konfigurationer kan många potentiella problem undvikas innan de orsakar avbrott. 
+Tillämpning: 
+ - Implementera regelbundna revisioner och tester: I en verklig IT-miljö bör organisationer genomföra regelbundna säkerhetsrevisioner och konfigurationstester för att identifiera potentiella problem innan de blir kritiska. Till exempel kan en årlig granskning av brandväggsregler och användarbehörigheter säkerställa att fjärrhanteringen fungerar smidigt. 
+ - Utveckla och underhåll dokumentation: Att ha detaljerad och uppdaterad dokumentation om säkerhetspolicyer och konfigurationer hjälper till att säkerställa att alla ändringar är spårbara och kan åtgärdas snabbt vid behov. 
+2. Kontinuerlig Övervakning och Automatisk Hantering 
+ Lärdom: 
+ Kontinuerlig övervakning är nödvändig för att snabbt kunna upptäcka och reagera på problem som kan påverka fjärrhantering. Automatisering av övervakning och hantering av certifikat, säkerhetsinställningar och användarbehörigheter minskar risken för mänskliga fel och snabbar upp responsen vid incidenter. 
+Tillämpning: 
+ - Användning av centraliserade övervakningsverktyg: IT-miljöer bör använda centraliserade övervakningsverktyg som SIEM-system för att övervaka nätverk, applikationer och användarbehörigheter i realtid. Detta möjliggör snabb upptäckt av anomalier och säkerhetsincidenter. 
+ - Automatiserad certifikat- och konfigurationshantering: Implementera verktyg som automatiserar hanteringen av SSL/TLS-certifikat och säkerställer att alla konfigurationer hålls uppdaterade och säkerhetskopieras regelbundet. Detta förhindrar avbrott på grund av utgångna certifikat eller felkonfigurationer. 
+  
+3. Strukturerad Utbildning och Kommunikation 
+Lärdom: 
+ Utbildning av personal och kommunikation av säkerhetspolicyer är avgörande för att säkerställa att alla inom organisationen är medvetna om bästa praxis för fjärrhantering och hur man kan förebygga och hantera problem. 
+ Tillämpning: 
+ - **Regelbundna utbildningsprogram**: Organisationer bör införa regelbundna utbildningsprogram för IT-personal om fjärrhantering, säkerhetsrutiner och incidenthantering. Detta säkerställer att teamet är uppdaterat om de senaste hoten och lösningarna. 
+ - **Simuleringar och övningar**: Genomför simuleringar av fjärrhanteringsincidenter och säkerhetsövningar för att förbereda personalen på att hantera faktiska problem. Detta skapar en kultur av beredskap och kontinuerlig förbättring. 
+4. Flexibilitet och Anpassningsförmåga 
+*Lärdom: 
+ IT-miljöer måste vara flexibla och anpassningsbara för att hantera nya utmaningar och förändrade hotlandskap. Regelbunden granskning och uppdatering av fjärrhanteringspolicyer och verktyg är nödvändigt för att hålla systemet säkert och effektivt. 
+*Tillämpning: 
+ - Dynamisk säkerhetspolicy: Inför en dynamisk säkerhetspolicy som regelbundet ses över och uppdateras för att möta nya säkerhetsutmaningar. Detta inkluderar att anpassa sig till förändringar i organisationens struktur, teknik eller externa hot. 
+ - Kontinuerlig förbättringsprocess: Implementera en kontinuerlig förbättringsprocess där lärdomar från incidenter och simuleringar integreras i de dagliga rutinerna och långsiktiga strategierna. 
+5. Samarbete och Delat Ansvar 
+*Lärdom: 
+ Effektiv fjärrhantering kräver samarbete mellan olika avdelningar inom en organisation, inklusive IT, säkerhet, och affärsenheter. Delat ansvar för säkerhet och fjärrhantering stärker motståndskraften mot problem. 
+*Tillämpning: 
+ - Tvärfunktionella team: Skapa tvärfunktionella team där IT, säkerhet och affärsenheter samarbetar för att utveckla och implementera fjärrhanteringsstrategier. Detta säkerställer att alla perspektiv beaktas och att säkerheten integreras i hela organisationen. 
+ - Kommunikationsprotokoll: Utveckla och underhåll tydliga kommunikationsprotokoll för att säkerställa att all relevant information om fjärrhantering och säkerhet delas mellan team i rätt tid. 
+ 
+Sammanfattning 
+Lärdomarna från diskussionen om fjärrhanteringsproblem kan tillämpas i verkliga IT-miljöer genom att fokusera på proaktivitet, övervakning, utbildning, flexibilitet och samarbete. Genom att integrera dessa principer i en organisations dagliga drift och långsiktiga strategi kan avbrott och säkerhetsrisker minimeras, vilket säkerställer att fjärrhantering fungerar effektivt och säkert. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
