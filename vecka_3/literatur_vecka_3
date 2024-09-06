@@ -1,0 +1,38 @@
+
+Methods for File Recovery in Windows Client:
+
+Check the Recycle Bin:
+
+The first and simplest step is to check the Recycle Bin. Deleted files are usually moved here, and you can easily restore them to their original location.
+Use File History (if enabled):
+
+If you have File History enabled, it creates regular backups of your files. You can use it to restore previous versions or deleted files.
+Troubleshooting Tip: If File History isn't working, check its settings, ensure the backup drive is connected, and troubleshoot any potential errors in the Event Viewer.
+Use Windows File Recovery tool (for recent deletions):
+
+Windows File Recovery is a command-line tool that can recover recently deleted files from various storage devices.
+Troubleshooting Tip: This tool is most effective for recent deletions and may not be successful for older files or heavily fragmented drives.
+Use third-party data recovery software:
+
+There are numerous third-party data recovery tools available, both free and paid. These tools can often recover files even after they've been deleted from the Recycle Bin or if File History wasn't enabled.
+Troubleshooting Tip: Choose reputable software and be cautious about downloading from unknown sources. Research reviews and compatibility with your Windows version.
+General Tips for File Recovery:
+
+Act quickly: The sooner you attempt recovery after a file is deleted, the higher the chances of success.
+Minimize disk activity: Avoid writing new data to the drive where the deleted files were located. This reduces the risk of overwriting the deleted data.
+Consider professional help: If the data is critical and you're unable to recover it yourself, consider seeking professional data recovery services.
+MD-100 Troubleshooting Mindset for File Recovery:
+
+Identify the problem: Determine how the files were lost (accidental deletion, drive formatting, etc.).
+Gather information: Check the Recycle Bin, File History settings, and any error messages.
+Analyze and choose a solution: Based on the information gathered, choose the most appropriate recovery method.
+Test and implement: Try the chosen method and, if successful, restore the files to a safe location.
+Document: Keep a record of the recovery process and any lessons learned for future reference.
+Remember, file recovery is not always guaranteed, and success depends on various factors. However, by employing a systematic approach and utilizing the appropriate tools, you can increase your chances of recovering lost files.
+
+
+
+
+
+
+
