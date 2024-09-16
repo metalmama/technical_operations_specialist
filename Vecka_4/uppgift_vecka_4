@@ -1,0 +1,467 @@
+Vecka 4: 
+
+Övningsuppgift: LAB_måndag
+
+ 
+
+Case-Studie 1: Fjärrhanteringsproblem i en Blandad IT-miljö 
+
+ 
+
+Scenario: Ett företag med både Windows- och Linux-klienter upplever stora problem med att använda fjärrhanteringsverktyg på sina enheter. Fjärrhanteringsverktyg som Remote Desktop fungerar dåligt, och IT-avdelningen har svårt att upprätthålla stabila anslutningar. 
+ 
+
+Uppgift: Analysera problemet och föreslå en steg-för-steg-lösning. Diskutera hur du skulle felsöka och lösa nätverksrelaterade problem samt hårdvaruproblem som kan påverka fjärrhanteringen. Reflektera över vilka verktyg du skulle använda och hur du skulle hantera olika operativsystem i detta scenario. 
+
+ 
+
+Vad gör vi praktiskt? 
+
+ 
+
+Kolla servern - är det inget RAM minne kvar? 
+
+Kolla loggarna – visar tydligt var det kan vara fel.  
+
+Notera mixad miljö, Windows, Linux, Mac. RDP fungerar dåligt - utgår ifrån att det är en MS server.  
+
+Domänkontrollanter, server, eller i AD server – notera miljön. Linux har KVM – motsvarighet. 
+
+Anydesk  
+
+The Fast Remote Desktop Application – AnyDesk 
+
+ 
+
+I multi-miljö. Har alla användare samma fel? Om t ex servern är överbelastad, då måste man tilldela mer RAM och då har man löst problemet.   
+
+ 
+
+Servern tar emot alla RDP, så länge vi kan använda ett RDP protokoll så spelar det ingen roll vad man använder för att ansluta. Att man inte kan ansluta i en multimiljö är säkerligen pga överbelastning av servern.  
+
+ 
+
+Tappar bandbredd, uppkoppling, kan vara kablar, kan vara router, kan vara nätverksproblem i det simuerade nätverket. T ex hade många olika nätverk som var interlänkade med varandra, istället för att gå rutten genom RDP server så gick det genom alla andra nätverk först. DNS problem.  
+
+ 
+
+Servrar brukar vara statiska IP, alla användare, men de har DNS som pekar på servern.  
+
+ 
+
+Gå in på powershell.  
+
+ 
+
+Teori: 
+
+Nätverksrelaterade problem: 
+
+Låg bandbredd eller hög latens kan orsaka fördröjning och avbrott i fjärrsessioner. 
+
+Problem med nätverkshårdvara som switchar, routrar eller brandväggar kan leda till paketförlust och instabilitet. 
+
+Felkonfigurerade nätverksinställningar, som DNS eller routing, kan hindra anslutningar. 
+
+Överbelastning av nätverket på grund av hög trafik kan påverka prestandan för fjärrhantering. 
+
+Hårdvaruproblem: 
+
+Otillräcklig processorkraft eller minne på klient- eller serverdatorerna kan orsaka prestandaproblem. 
+
+Problem med grafikkort eller drivrutiner kan leda till problem med att visa fjärrskärmen. 
+
+Inkompatibilitet mellan fjärrhanteringsverktyg och viss hårdvara kan orsaka instabilitet. 
+
+Överbelastning på server 
+
+Programvarurelaterade problem: 
+
+Inkompatibilitet mellan fjärrhanteringsverktyg och operativsystemversioner. 
+
+Felkonfigurerade inställningar i fjärrhanteringsverktygen. 
+
+Konflikt med annan programvara, som antivirus eller brandväggar. 
+
+Buggar eller problem i själva fjärrhanteringsverktygen. 
+
+Samla in information 
+
+Intervjua användare och IT-personal: Få en detaljerad beskrivning av problemen, inklusive: 
+
+När problemen började. 
+
+Hur ofta de inträffar. 
+
+Vilka specifika åtgärder som utlöser dem. 
+
+Vilka typer av fjärrhanteringsverktyg som används. 
+
+Vilka operativsystem och versioner som används på klienterna och servrarna. 
+
+Dokumentera nätverksinfrastrukturen: Skapa en nätverkstopologi som visar routrar, switchar, brandväggar och andra nätverksenheter. 
+
+Felsökning av nätverksrelaterade problem 
+
+Kontrollera nätverksanslutning: 
+
+Använd ping för att testa anslutningen mellan klienten och fjärrhanteringsservern. 
+
+Använd traceroute för att identifiera eventuella flaskhalsar eller avbrott i nätverksvägen. 
+
+Analysera bandbredd och latens: 
+
+Använd verktyg som iperf eller speedtest-cli för att mäta bandbredd och latens. 
+
+Identifiera om det finns någon överbelastning av nätverket eller om bandbredden är otillräcklig för fjärrhantering. 
+
+Kontrollera brandväggsregler: 
+
+Se till att brandväggsreglerna på både klient- och serverdatorerna tillåter trafik för fjärrhanteringsverktygen. 
+
+Övervaka nätverkstrafik: 
+
+Använd verktyg som Wireshark eller tcpdump för att fånga och analysera nätverkstrafik. 
+
+Identifiera problempaket, onormal trafik eller tecken på nätverksattacker. 
+
+ 
+
+ 
+
+ 
+
+Case-Studie 2: Komplex Hårdvaru- och Programvarufelsökning 
+ 
+
+Scenario: En användare rapporterar att deras dator slumpmässigt kraschar och att vissa program inte startar alls. Efter en Windows-uppdatering har dessutom nätverksanslutningen blivit instabil, vilket förhindrar användning av fjärrhantering. 
+
+ 
+
+Uppgift: Genomför en detaljerad analys av problemet. Använd felsökningsmetodik för att identifiera både hårdvaru- och programvarurelaterade orsaker. Diskutera hur du skulle använda Windows-specifika felsökningsverktyg för att diagnostisera och åtgärda problemen. Reflektera över möjliga förhindrande faktorer för fjärrhantering och hur du skulle lösa dessa. 
+
+ 
+
+Praktiskt: 
+
+ 
+
+Kolla loggarna i Windows Event Viewer, om du får felmeddelande om vad som hände med programmet/appen? 
+
+T ex .net saknas eller liknande. 
+
+Prova starta programmet i safemode om programmet har någon sådan funktion.  
+
+Någon som försöker tränga sig in i nätverket?  
+
+När  man gör uppdateringar - vänta ca 3 veckor så att uppdateras alla system. Servrar och klienter behandlas inte på samma sätt. 
+
+Baserat på vad man hittar kan man göra en roll back. Man kan göra rollbacks på allt.  
+
+Om man inte identifierat exakt vad det är som orsakar  problemet (kommer som paket), då kan man googla runt och kolla om någon anna har samma problem. 
+
+ 
+
+  
+
+Teori: 
+
+ 
+
+Användaren upplever flera problem efter en Windows-uppdatering, vilket tyder på att uppdateringen kan vara orsaken till problemen. Vi behöver felsöka varje problem systematiskt för att identifiera grundorsaken och implementera lämpliga lösningar. Eftersom fjärrhantering inte är möjligt på grund av nätverksinstabilitet, kommer felsökningsstegen att fokusera på lokala åtgärder som användaren kan utföra. 
+
+Här är en steg-för-steg-plan för att hjälpa användaren: 
+
+Samla in detaljerad information om problemen: 
+
+Krascher: 
+
+Hur ofta inträffar krascherna? 
+
+Finns det något specifikt mönster eller utlösare för krascherna (t.ex. vid användning av vissa program eller efter en viss tid)? 
+
+Visas något felmeddelande eller blå skärm vid kraschen? 
+
+Program som inte startar: 
+
+Vilka specifika program startar inte? 
+
+Visas något felmeddelande när programmen försöker starta? 
+
+Nätverksinstabilitet: 
+
+Hur yttrar sig nätverksinstabiliteten (t.ex. långsam anslutning, avbrott, problem att ansluta till internet eller nätverksresurser)? 
+
+Har användaren provat att starta om routern eller modemet? 
+
+Finns det andra enheter i nätverket som upplever liknande problem? 
+
+Felsök krascherna: 
+
+Kontrollera Windows Event Viewer: 
+
+Användaren kan öppna Event Viewer och leta efter fel eller varningar relaterade till krascherna. Detta kan ge ledtrådar om orsaken till problemet. 
+
+Uppdatera drivrutiner: 
+
+Föråldrade eller inkompatibla drivrutiner kan orsaka krascher. Användaren bör kontrollera Enhetshanteraren för att se om det finns några drivrutiner med varningar eller fel och uppdatera dem vid behov. 
+
+Sök efter skadlig programvara: 
+
+Kör en fullständig genomsökning med ett uppdaterat antivirusprogram för att utesluta skadlig programvara som orsak. 
+
+Felsök program som inte startar: 
+
+Reparera eller återställ program: 
+
+Användaren kan försöka reparera eller återställa programmen via Kontrollpanelen eller appinställningarna. 
+
+Kontrollera kompatibilitetsläge: 
+
+Om programmen är äldre kan de behöva köras i kompatibilitetsläge för en tidigare version av Windows. 
+
+Inaktivera tillägg eller plugins: 
+
+Om programmen har tillägg eller plugins kan dessa orsaka konflikter. Användaren kan försöka inaktivera dem tillfälligt för att se om det löser problemet. 
+
+Felsök nätverksinstabilitet: 
+
+Kör nätverksfelsökaren: 
+
+Windows har inbyggda felsökare som kan hjälpa till att identifiera och åtgärda vanliga nätverksproblem. Användaren bör köra nätverksfelsökaren för att se om den hittar några problem. 
+
+Återställ nätverksinställningar: 
+
+Om nätverksfelsökaren inte hittar några problem kan användaren försöka återställa nätverksinställningarna till standardinställningarna. 
+
+Uppdatera nätverksdrivrutiner: 
+
+Precis som med andra drivrutiner kan föråldrade nätverksdrivrutiner orsaka problem. Användaren bör kontrollera Enhetshanteraren och uppdatera nätverksdrivrutinerna vid behov. 
+
+Överväg att avinstallera den senaste Windows-uppdateringen: 
+
+Om problemen började direkt efter uppdateringen kan det vara orsaken. Användaren kan försöka avinstallera den senaste uppdateringen och se om det löser problemen. 
+
+Rekommendera ytterligare åtgärder om problemen kvarstår: 
+
+Om problemen kvarstår efter att ha provat ovanstående steg bör användaren överväga att kontakta Microsofts support eller en kvalificerad tekniker för ytterligare hjälp. 
+
+Genom att följa dessa steg kan användaren systematiskt felsöka och förhoppningsvis lösa problemen som uppstod efter Windows-uppdateringen. Det är viktigt att vara tålmodig och metodisk under felsökningsprocessen. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Case-Studie 3: Implementering av En Fjärrhanteringsstrategi 
+
+ 
+
+Scenario: Din uppgift är att designa en fjärrhanteringsstrategi för en organisation med över 200 användare spridda över olika geografiska platser. Organisationen har rapporterat att nuvarande fjärrhanteringslösningar inte är tillräckligt säkra och ofta leder till dataförlust vid fjärrsupport. 
+
+ 
+
+ 
+
+Uppgift: Utveckla en omfattande strategi som täcker säkerhet, stabilitet, och användarvänlighet. Beskriv de olika fjärrhanteringsverktygen du skulle använda, hur du skulle konfigurera dem, och vilka säkerhetsåtgärder som skulle införas. Diskutera också hur du skulle felsöka och lösa vanliga problem som kan uppstå vid implementeringen. 
+
+ 
+
+Praktiskt: 
+
+ 
+
+Windows Server 2022 
+
+200 användare spridda över olika geografiska  platser. 
+
+ 
+
+Om där finns en certificate authority på nätverket - som hanterar certifikat. Kolla om det finns, om inte så installera en.  
+
+ 
+
+Installera 2 RDP servrar med lastbalansering - så att ingen av servrarna behöver ta full belastning.  
+
+Tekniskt sett kan man sätta växlande IP adresser, men RDP inbyggda lastbalanseringsserver kan man göra detta mer sömnlöst.  
+
+ 
+
+Olika lokationer? Dra ner windows grafik för att öka prestanda.  
+
+ 
+
+Bottlenecks?  
+
+ 
+
+VPN för säker extern anslutning. 
+
+ 
+
+ 
+
+Teori: 
+
+Omfattande fjärrhanteringsstrategi för en distribuerad organisation 
+
+Övergripande mål: 
+
+Implementera en säker, stabil och användarvänlig fjärrhanteringslösning som möjliggör effektiv IT-support samtidigt som dataförlust och säkerhetsrisker minimeras. 
+
+Strategi: 
+
+Behovsanalys och kravinsamling: 
+
+Identifiera användarbehov: Vilka typer av fjärrsupport behövs (felsökning, programvaruinstallationer, systemuppdateringar etc.)? 
+
+Kartlägg IT-miljön: Vilka operativsystem, enheter och nätverkskonfigurationer finns i organisationen? 
+
+Säkerhetskrav: Vilka typer av data behöver skyddas och vilka säkerhetsstandarder måste uppfyllas? 
+
+Val av fjärrhanteringsverktyg: 
+
+Plattformsoberoende stöd: Välj verktyg som fungerar på olika operativsystem (Windows, macOS, Linux) och mobila enheter. 
+
+Säkerhetsfunktioner: Prioritera verktyg med stark autentisering (multifaktorautentisering, engångslösenord), kryptering av dataöverföring, och rollbaserad åtkomstkontroll. 
+
+Funktionalitet: Se till att verktygen har funktioner för skärmdelning, filöverföring, fjärrstyrning och sessioninspelning. 
+
+Skalbarhet: Välj en lösning som kan hanteras centralt och enkelt skalas upp för att möta organisationens tillväxt. 
+
+Användarvänlighet: Välj verktyg med intuitiva gränssnitt för både IT-personal och slutanvändare. 
+
+Möjliga verktyg: 
+
+TeamViewer: Populärt och användarvänligt verktyg med bra plattformsoberoende stöd. 
+
+AnyDesk: Snabbt och säkert verktyg med låg latens, lämpligt för fjärrstyrning. 
+
+Splashtop: Kostnadseffektivt alternativ med bra prestanda och säkerhetsfunktioner. 
+
+Microsoft Remote Desktop: Inbyggt i Windows, lämpligt för Windows-miljöer. 
+
+VNC (Virtual Network Computing): Open source-lösning med flexibilitet men kan kräva mer teknisk kunskap för konfiguration. 
+
+Konfiguration och säkerhetsåtgärder: 
+
+Stark autentisering: Implementera multifaktorautentisering (MFA) för alla användare och IT-personal. 
+
+Kryptering: Aktivera end-to-end-kryptering för all dataöverföring. 
+
+Rollbaserad åtkomstkontroll: Begränsa åtkomst till känsliga system och data baserat på användarroller och behov. 
+
+Sessioninspelning: Aktivera sessioninspelning för att granska aktiviteter och identifiera potentiella säkerhetsincidenter eller felsöka problem. 
+
+Nätverkssegmentering: Isolera fjärrhanteringstrafik från annan nätverkstrafik för att minska risken för obehörig åtkomst. 
+
+Brandväggskonfiguration: Konfigurera brandväggar för att tillåta endast nödvändig trafik för fjärrhantering och blockera oönskad trafik. 
+
+Antivirus och antimalware: Se till att alla enheter har uppdaterat antivirus- och antimalware-skydd. 
+
+Uppdateringar: Håll fjärrhanteringsverktygen och operativsystemen uppdaterade för att åtgärda säkerhetsbrister. 
+
+Implementering och utbildning: 
+
+Centraliserad distribution: Använd en centraliserad metod för att distribuera och hantera fjärrhanteringsagenten på alla enheter. 
+
+Användarutbildning: Utbilda användare om hur de initierar och deltar i fjärrsupport-sessioner samt om vikten av säkerhet. 
+
+IT-personalutbildning: Se till att IT-personalen är välutbildad i att använda fjärrhanteringsverktygen effektivt och säkert. 
+
+Dokumentation: Skapa tydliga riktlinjer och procedurer för fjärrsupport och säkerhet. 
+
+Felsökning och problemlösning: 
+
+Vanliga problem: 
+
+Anslutningsproblem: Kontrollera nätverksanslutning, brandväggsinställningar och portkonfigurationer. 
+
+Prestandaproblem: Optimera inställningar för bandbredd och bildkvalitet, kontrollera om det finns flaskhalsar i nätverket eller på enheterna. 
+
+Kompatibilitetsproblem: Se till att fjärrhanteringsverktygen är kompatibla med alla operativsystem och enheter som används. 
+
+Felsökningsverktyg: Använd inbyggda diagnostikverktyg i fjärrhanteringslösningen, nätverksverktyg (t.ex. ping, traceroute), loggfiler och händelseloggar. 
+
+Supportprocess: Etablera en tydlig process för användare att rapportera problem och för IT-personal att felsöka och lösa dem. 
+
+Övervakning och utvärdering: 
+
+Övervakningsverktyg: Implementera verktyg för att övervaka nätverksprestanda, fjärrsessioner och säkerhetshändelser. 
+
+Feedback: Samla in feedback från användare och IT-personal om lösningens effektivitet och användarvänlighet. 
+
+Kontinuerlig förbättring: Utvärdera och justera strategin regelbundet baserat på feedback och identifierade problem. 
+
+Genom att implementera denna omfattande strategi kan organisationen uppnå en säker, stabil och användarvänlig fjärrhanteringslösning som möjliggör effektiv IT-support och minimerar risken för dataförlust. 
+
+ 
+
+ 
+
+Reflektion och Diskussion: 
+
+Efter att ha arbetat med ovanstående case-studier, reflektera över vilka utmaningar du stötte på och hur du övervann dem. Diskutera vad du har lärt dig om att applicera teoretisk kunskap i praktiska situationer och hur det har påverkat din förståelse för felsökning, fjärrhantering, och problemlösning i Windowsmiljö. 
+
+ 
+
+ 
+
+Vi har bestämt alla parametrar för våra case-scenarion.  
+
+ 
+
+Genom att arbetar med dessa scenarion fick vi en ökad förståelse för hur man löser saker praktiskt. Det var också givande att fördjupa oss i relevant teori.  
+
+ 
+
+ 
+
+Reflektion över utmaningar och lösningar: 
+
+Case-studierna presenterade en rad utmaningar som krävde både teknisk kunskap och problemlösningsförmåga. En av de största utmaningarna var att diagnostisera problemet korrekt baserat på begränsad information från användaren. I vissa fall var det nödvändigt att ställa följdfrågor eller använda fjärrhanteringsverktyg för att få en tydligare bild av situationen. 
+
+En annan utmaning var att välja rätt felsökningsmetod och verktyg för varje specifikt problem. Det krävde en god förståelse för Windows-operativsystemet, dess olika komponenter och hur de interagerar med varandra. Ibland var det nödvändigt att prova flera olika metoder innan man hittade den rätta lösningen. 
+
+Lärdomar om att applicera teoretisk kunskap: 
+
+Case-studierna visade tydligt vikten av att kunna applicera teoretisk kunskap i praktiska situationer. Att ha en gedigen förståelse för operativsystemet, nätverk, hårdvara och felsökningsmetodik var avgörande för att kunna lösa problemen effektivt. 
+
+Genom att arbeta med dessa scenarier fick jag en djupare förståelse för hur olika delar av systemet kan påverka varandra och hur man systematiskt kan närma sig ett problem för att hitta orsaken och åtgärda det. Det blev också tydligt att felsökning ofta är en iterativ process där man behöver vara flexibel och anpassa sin strategi baserat på de resultat man får. 
+
+Påverkan på förståelse för felsökning, fjärrhantering och problemlösning: 
+
+Case-studierna har stärkt min förmåga att felsöka och lösa problem i en Windows-miljö. Jag har lärt mig att vara mer metodisk i min approach, att använda rätt verktyg för varje situation och att tänka kritiskt för att identifiera grundorsaken till ett problem. 
+
+Dessutom har jag fått en bättre förståelse för hur fjärrhanteringsverktyg kan användas för att effektivt stödja användare på distans. Jag har också lärt mig vikten av att ha en tydlig kommunikation med användaren och att dokumentera alla steg i felsökningsprocessen. 
+
+Sammanfattningsvis har dessa case-studier varit värdefulla för att överbrygga gapet mellan teori och praktik. De har gett mig praktisk erfarenhet av att tillämpa mina kunskaper i realistiska scenarier och har stärkt min förmåga att felsöka, använda fjärrhantering och lösa problem i en Windows-miljö. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
