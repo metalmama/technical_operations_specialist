@@ -1,0 +1,539 @@
+ 
+
+ 
+
+ 
+
+Klientfelsökning och fjärrhantering 
+
+Viola Lyeklint Hancock  
+
+viola@hancocksit.com 
+
+Ammar Alnahhas 
+
+ 
+
+ 
+
+ 
+
+Bakgrund: 
+
+Du har nyligen anställts som en Technical Operations Specialist på ett företag som använder en stor mängd Windows-baserade klienter. Ditt uppdrag är att hantera både akuta och förebyggande åtgärder för att säkerställa en stabil och fungerande IT-miljö. Uppgiften kommer att bedöma din förmåga att tillämpa teoretiska kunskaper i praktiska scenarion, med fokus på klientfelsökning och fjärrhantering. 
+
+Uppgiftsbeskrivning: 
+
+Operativsystemanalys: 
+
+Redogör för de olika klientoperativsystemens ursprung och deras viktigaste skillnader med fokus på Windows (De olika varianterna). Diskutera hur dessa skillnader påverkar felsökningsmetodik och fjärrhantering. 
+
+En av de mest grundläggande skillnaderna mellan Windows, Linux och macOS ligger i hur de hanterar filer. Varje operativsystem använder ett unikt filsystem som avgör hur filer organiseras och lagras. Windows använder NTFS, medan Linux oftast använder ext4 och macOS använder APFS. Denna skillnad påverkar hur vi navigerar i filsystemet och hur vi adresserar filer i skript och program. 
+
+Till exempel använder Windows enhetsbeteckningar som C: för att identifiera hårddiskar och partitioner, medan Linux och macOS använder en hierarkisk struktur med en rotkatalog (/). Att förstå dessa skillnader är viktigt när man skriver skript eller program som ska fungera på olika plattformar, då sökvägar och filnamn kan behöva anpassas. 
+
+Utöver filsystemet finns det även skillnader i hur operativsystemen presenterar filer och mappar för användaren. Windows har ett grafiskt användargränssnitt (GUI) med fokus på ikoner och menyer, medan Linux och macOS traditionellt har haft en starkare koppling till kommandoradsgränssnittet (CLI). Även om moderna Linux-distributioner och macOS också har användarvänliga GUI, är CLI fortfarande ett viktigt verktyg för avancerade användare och administratörer. 
+
+Denna skillnad i användargränssnitt påverkar också hur man utför fjärrsupport. Windows erbjuder Remote Desktop Protocol (RDP) för grafisk fjärrstyrning, medan Linux och macOS oftast förlitar sig på SSH för säker fjärråtkomst via kommandoraden. 
+
+Även inom Windows-familjen finns det variationer. Windows Pro är riktat mot professionella användare och småföretag, medan Windows Enterprise erbjuder avancerade funktioner för större organisationer, som centraliserad hantering och förbättrad säkerhet. Windows Server är designat för att köras på servrar och tillhandahålla nätverkstjänster. 
+
+Att förstå dessa skillnader mellan operativsystem är avgörande för att kunna arbeta effektivt i olika IT-miljöer. Det påverkar allt från filsystemshantering och skriptning till fjärrsupport och problemlösning. 
+
+Felsökningsmetodik och Verktyg: 
+
+Beskriv en systematisk felsökningsmetod som du skulle tillämpa för att lösa problem i en Windows-miljö. Inkludera specifika verktyg och tekniker som du skulle använda för att identifiera och åtgärda vanliga problem som uppstartsproblem, nätverksproblem, samt hårdvaru- och drivrutinsproblem. 
+
+För att effektivt lösa problem i en Windows-miljö använder jag en strukturerad felsökningsmetod som hjälper mig att identifiera grundorsaken till problemet och implementera rätt lösning. 
+
+1. Identifiera problemet: 
+
+Samla information: Börja med att samla in så mycket information som möjligt från användaren. 
+
+Vilka är symptomen? 
+
+När uppstod problemet? 
+
+Har några ändringar gjorts i systemet nyligen? 
+
+Finns det några felmeddelanden? 
+
+Replikera problemet: Försök att återskapa problemet själv för att bekräfta användarens rapport och få en bättre förståelse för situationen. 
+
+2. Forskning och hypotes: 
+
+Sök efter lösningar: Använd online-resurser, kunskapsbaser och forum för att undersöka möjliga orsaker och lösningar baserat på den insamlade informationen. 
+
+Formulera en hypotes: Baserat på forskningen, formulera en hypotes om den troliga orsaken till problemet. 
+
+3. Testning: 
+
+Utför tester: Genomför tester för att bekräfta eller avfärda hypotesen. 
+
+Kontrollera systemloggar (Event Viewer) för att identifiera fel och varningar. 
+
+Använd kommandoradsverktyg för att testa nätverksanslutning (ping, ipconfig, tracert). 
+
+Testa hårdvara med diagnostikverktyg eller genom att byta ut komponenter. 
+
+4. Åtgärda: 
+
+Implementera lösningen: Baserat på testresultaten, implementera den lämpligaste lösningen. 
+
+Installera uppdateringar, drivrutiner eller programvara. 
+
+Ändra systeminställningar eller konfigurationer. 
+
+Reparera eller byt ut hårdvara. 
+
+5. Verifiera: 
+
+Bekräfta lösningen: Kontrollera att problemet är löst och att systemet fungerar som förväntat. 
+
+Testa funktionalitet: Se till att alla relaterade funktioner och applikationer fungerar korrekt efter åtgärden. 
+
+6. Dokumentera: 
+
+Registrera information: Dokumentera problemet, felsökningsstegen och lösningen för framtida referens. Detta kan vara till hjälp för att lösa liknande problem i framtiden. 
+
+Verktyg och tekniker för vanliga problem: 
+
+Uppstartsproblem: 
+
+Automatisk reparation: Windows inbyggda reparationsverktyg kan ofta åtgärda vanliga uppstartsproblem. 
+
+Systemåterställning: Återställ systemet till en tidigare tidpunkt då det fungerade korrekt. 
+
+Kommandotolken: Använd kommandon som bootrec /fixmbr och bootrec /fixboot för att reparera startsektorn. 
+
+Nätverksproblem: 
+
+Nätverksfelsökare: Windows inbyggda felsökare kan identifiera och åtgärda vanliga nätverksproblem. 
+
+Kontrollera nätverksinställningar: Verifiera IP-adress, DNS-server och gateway-inställningar. 
+
+Uppdatera nätverksdrivrutiner: Installera de senaste drivrutinerna för nätverkskortet. 
+
+Hårdvaru- och drivrutinsproblem: 
+
+Enhetshanteraren: Identifiera problem med hårdvara och drivrutiner genom att kontrollera efter felmeddelanden eller varningar. 
+
+Uppdatera eller installera om drivrutiner: Hämta de senaste drivrutinerna från tillverkarens webbplats. 
+
+Diagnostikverktyg: Använd tillverkarens diagnostikverktyg för att testa hårdvarukomponenter. 
+
+ 
+
+Incidenthantering: 
+
+Analysera ett tänkt scenario där en användare upplever inloggningsproblem samt prestandaproblem med en specifik applikation. Beskriv steg-för-steg hur du skulle identifiera, felsöka och lösa dessa problem, både lokalt och på distans med hjälp av fjärrhanteringsverktyg som Remote Desktop. 
+
+  
+
+Användaren rapporterar: 
+
+Svårigheter att logga in på sin Windows-dator, ibland fungerar det inte alls. Inget specifikt felmeddelande visas, skärmen "hänger sig" bara vid inloggning. 
+
+När inloggning lyckas är en specifik applikation (t.ex. Microsoft Excel) väldigt långsam och kraschar ofta. 
+
+Steg-för-steg felsökning: 
+
+1. Inledande information: 
+
+Fråga användaren: 
+
+När började problemen? 
+
+Har användaren installerat ny hårdvara eller programvara nyligen? 
+
+Vilka andra program är igång samtidigt som Excel? 
+
+Finns det specifika Excel-filer som orsakar problem? 
+
+Har användaren tillräckligt med diskutrymme? 
+
+Kontrollera kända problem: 
+
+Finns det kända problem med den specifika versionen av Windows eller Microsoft Excel? 
+
+Finns det kända kompatibilitetsproblem med annan programvara eller hårdvara som användaren har? 
+
+2. Lokala felsökningssteg (om användaren kan logga in): 
+
+Inloggningsproblem: 
+
+Starta om datorn: En omstart kan lösa tillfälliga problem. 
+
+Kontrollera inloggningsalternativ: 
+
+Fungerar inloggning med PIN-kod eller Windows Hello? 
+
+Om ja, kan problemet vara relaterat till lösenordssynkronisering. 
+
+Kör Startup Repair: 
+
+Gå till Avancerade startalternativ (håll Shift nedtryckt medan du startar om datorn) och välj "Felsök" -> "Avancerade alternativ" -> "Startup Repair". 
+
+Applikationsproblem: 
+
+Starta om applikationen: Stäng och öppna Excel igen. 
+
+Reparera Office-paketet: 
+
+Gå till "Kontrollpanelen" -> "Program" -> "Program och funktioner". 
+
+Välj Microsoft Office och klicka på "Ändra" -> "Reparera". 
+
+Kontrollera tillägg: Inaktivera tillägg i Excel för att se om de orsakar problem. 
+
+Öppna i felsäkert läge: Starta Excel i felsäkert läge för att utesluta problem med tillägg eller inställningar. 
+
+3. Fjärrfelsökning med Remote Desktop: 
+
+Anslut till datorn: Använd Remote Desktop för att fjärransluta till användarens dator. 
+
+Kontrollera händelseloggen: 
+
+Öppna Event Viewer och leta efter felmeddelanden relaterade till inloggning eller Excel. 
+
+Fokusera på "Application" och "System" loggarna. 
+
+Kontrollera systemfiler: Kör System File Checker (SFC) för att skanna och reparera korrupta systemfiler (sfc /scannow i kommandotolken). 
+
+Skanna efter skadlig programvara: Kör en fullständig genomsökning med ett uppdaterat antivirusprogram. 
+
+Kontrollera drivrutiner: 
+
+Uppdatera eller installera om drivrutiner för relevant hårdvara, särskilt grafikkort och hårddisk. 
+
+Använd Enhetshanteraren för att identifiera problem med drivrutiner. 
+
+Kontrollera diskutrymme: 
+
+Se till att det finns tillräckligt med ledigt utrymme på hårddisken. 
+
+Rensa temporära filer och onödiga program. 
+
+Analysera prestanda: 
+
+Använd "Prestandaövervakaren" för att identifiera flaskhalsar och resursanvändning. 
+
+Kontrollera CPU, minne, disk och nätverksanvändning. 
+
+4. Implementera lösningar: 
+
+Baserat på felsökningsresultaten, implementera lämpliga lösningar: 
+
+Åtgärda problem med användarkontot. 
+
+Reparera eller byt ut skadade systemfiler. 
+
+Uppdatera eller installera om drivrutiner. 
+
+Avinstallera eller uppdatera problematisk programvara. 
+
+Optimera systemprestanda. 
+
+Frigör diskutrymme. 
+
+5. Verifiera och dokumentera: 
+
+Bekräfta att problemet är löst: 
+
+Kontrollera att användaren kan logga in utan problem. 
+
+Se till att Excel fungerar korrekt. 
+
+Dokumentera problemet, felsökningsstegen och lösningen: 
+
+Detta kan vara till hjälp för att lösa liknande problem i framtiden. 
+
+Ytterligare överväganden: 
+
+Systemåterställning: Om inget annat fungerar kan en systemåterställning till en tidigare tidpunkt vara en lösning. 
+
+Fjärrhanteringsstrategi: 
+
+Diskutera fördelarna och begränsningarna med att använda fjärrhanteringsverktyg för att lösa IT-incidenter. Beskriv hur du skulle organisera och implementera en fjärrhanteringsstrategi för att stödja ett distribuerat team med användare på olika platser. 
+
+Fördelar med fjärrhanteringsverktyg: 
+
+Snabb responstid: IT-personal kan snabbt ansluta till användarens dator, oavsett geografisk plats, och lösa problem i realtid. 
+
+Minskade kostnader: Resor och besök på plats minskar, vilket sparar tid och pengar. 
+
+Ökad produktivitet: Användare kan fortsätta arbeta medan IT-personalen felsöker problemet på distans. 
+
+Centraliserad hantering: Flera system kan hanteras och övervakas från en central plats. 
+
+Proaktivt underhåll: IT-personal kan utföra underhåll och uppdateringar på distans, vilket minskar risken för framtida problem. 
+
+Begränsningar med fjärrhanteringsverktyg: 
+
+Nätverksberoende: En stabil och snabb internetanslutning krävs för optimal prestanda. Problem med bandbredd eller latens kan påverka användarupplevelsen. 
+
+Säkerhetsrisker: Om inte korrekt konfigurerad kan fjärråtkomst utgöra en säkerhetsrisk. Stark autentisering och kryptering är avgörande. 
+
+Begränsad åtkomst: Vissa hårdvaruproblem eller komplexa konfigurationer kan kräva fysisk åtkomst till datorn. 
+
+Användarmotstånd: Vissa användare kan känna sig obekväma med att IT-personal har fjärråtkomst till deras dator. Tydlig kommunikation och transparens är viktigt. 
+
+Fjärrhanteringsstrategi för ett distribuerat team: 
+
+För att stödja ett distribuerat team med användare på olika platser krävs en välplanerad fjärrhanteringsstrategi. Här är en översikt över hur jag skulle organisera och implementera en sådan strategi: 
+
+1. Välj rätt verktyg: 
+
+Plattformsoberoende: Verktyget ska stödja de operativsystem och enheter som används i organisationen (Windows, macOS, Linux, mobila enheter). 
+
+Säkerhet: Stark autentisering (MFA), kryptering och rollbaserad åtkomstkontroll är avgörande. 
+
+Funktionalitet: Skärmdelning, filöverföring, fjärrstyrning och sessioninspelning är viktiga funktioner. 
+
+Skalbarhet: Lösningen ska vara skalbar för att hantera ett växande antal användare och enheter. 
+
+Exempel på verktyg: TeamViewer, AnyDesk, Splashtop, Microsoft Remote Desktop, VNC. 
+
+2. Konfigurera och säkra: 
+
+Standardkonfiguration: Skapa en standardkonfiguration för fjärrhanteringsverktyget med fokus på säkerhet och användarvänlighet. 
+
+Säkerhetspolicyer: Implementera starka lösenord, MFA, och begränsa åtkomst baserat på användarroller. 
+
+Nätverkssegmentering: Separera fjärrhanteringstrafik från annan nätverkstrafik för ökad säkerhet. 
+
+Brandväggsregler: Konfigurera brandväggar för att tillåta endast nödvändig trafik för fjärrhantering. 
+
+3. Implementera och utbilda: 
+
+Centraliserad distribution: Distribuera fjärrhanteringsagenten till alla användarens enheter. 
+
+Användarutbildning: Utbilda användare om hur de initierar och deltar i fjärrsupport-sessioner. 
+
+IT-personalutbildning: Ge IT-personalen grundlig utbildning i verktygets funktioner och säkerhetsrutiner. 
+
+Dokumentation: Skapa tydliga riktlinjer och procedurer för fjärrsupport. 
+
+4. Anpassa till olika miljöer: 
+
+Klientserver: För klientservermiljöer, optimera fjärråtkomst till servrar med fokus på säkerhet och prestanda. Använd t.ex. RDP med Network Level Authentication (NLA) för säkrare anslutningar. 
+
+Grupppolicy: Använd grupppolicyer för att centralt hantera och konfigurera fjärrhanteringsinställningar för Windows-klienter. 
+
+5. Felsökning och support: 
+
+Vanliga problem: Identifiera och dokumentera vanliga problem och lösningar för att underlätta felsökning. 
+
+Supportprocess: Etablera en tydlig process för användare att rapportera problem och för IT-personal att felsöka och lösa dem. 
+
+Övervakning: Övervaka fjärrsessioner och nätverksprestanda för att identifiera och åtgärda potentiella problem. 
+
+6. Öppen kommunikation: 
+
+Transparens: Var öppen och tydlig med användarna om hur fjärrhantering används och vilka data som kan nås. 
+
+Feedback: Samla in feedback från användare och IT-personal för att kontinuerligt förbättra fjärrhanteringsstrategin. 
+
+ 
+
+Fallstudie: 
+
+Presentera en valfri fallstudie där du tillämpar dina kunskaper igenom att själv hitta på ett felsökningsscenario. Du ska redogöra för hela processen, från identifiering av problemet till slutförd lösning, samt reflektera över hur väl dina metoder och verktyg fungerade. 
+
+ 
+
+Guide för problemlösning: 
+
+Samla information: Ställ frågor till användaren för att förstå problemet. 
+
+Formulera hypoteser: Baserat på informationen, identifiera möjliga orsaker. 
+
+Utför tester: Använd verktyg för att bekräfta eller avfärda hypoteser. 
+
+Åtgärda: Implementera lösningar baserat på testresultaten. 
+
+Verifiera: Kontrollera att problemet är löst. 
+
+Dokumentera: Registrera problemet och lösningen för framtida referens. 
+
+ 
+
+Fallstudie: Långsam uppstart och prestandaproblem 
+
+Scenario: En användare rapporterar att deras Windows-dator har blivit mycket långsam att starta upp och att den generellt sett är seg i användning. Program tar lång tid att öppna och datorn fryser ibland. 
+
+Felsökningsprocess: 
+
+1. Identifiering av problemet: 
+
+Samla information: Jag frågar användaren om när problemet började, om några ändringar gjorts i systemet nyligen (ny hårdvara, programvara, uppdateringar), och vilka specifika program som är långsamma. 
+
+Bekräfta problemet: Jag ber användaren att starta om datorn medan jag observerar uppstartsprocessen för att få en uppfattning om hur lång tid det tar. 
+
+2. Forskning och hypotes: 
+
+Möjliga orsaker: Baserat på informationen från användaren misstänker jag att problemet kan bero på: 
+
+Många program som startar automatiskt vid uppstart. 
+
+Fragmenterad hårddisk. 
+
+Föråldrade drivrutiner. 
+
+Skadlig programvara. 
+
+3. Testning: 
+
+Kontrollera autostart: Jag öppnar "Aktivitetshanteraren" (Ctrl + Shift + Esc) och går till fliken "Autostart" för att se vilka program som startar automatiskt. 
+
+Analysera diskfragmentering: Jag öppnar "Defragmentera och optimera enheter" och kontrollerar fragmenteringsnivån på hårddisken. 
+
+Skanna efter skadlig programvara: Jag kör en fullständig genomsökning med ett uppdaterat antivirusprogram. 
+
+Kontrollera drivrutiner: Jag öppnar "Enhetshanteraren" och letar efter enheter med felmeddelanden eller varningar. 
+
+4. Åtgärda: 
+
+Inaktivera onödiga autostartprogram: I "Aktivitetshanteraren" inaktiverar jag program som inte är nödvändiga att starta automatiskt. 
+
+Defragmentera hårddisken: Om hårddisken är fragmenterad kör jag defragmentering. 
+
+Ta bort skadlig programvara: Om antivirusprogrammet hittar skadlig programvara tar jag bort den. 
+
+Uppdatera drivrutiner: Jag laddar ner och installerar de senaste drivrutinerna för enheter med problem. 
+
+5. Verifiera: 
+
+Starta om datorn: Jag ber användaren att starta om datorn och observerar uppstartstiden och prestandan. 
+
+Bekräfta lösningen: Jag frågar användaren om problemet är löst och om datorn känns snabbare. 
+
+6. Dokumentera: 
+
+Registrera information: Jag dokumenterar problemet, felsökningsstegen och lösningen i en kunskapsbas för framtida referens. 
+
+Reflektion: 
+
+I denna fallstudie fungerade min systematiska felsökningsmetod bra. Genom att samla in information, formulera hypoteser och utföra tester kunde jag identifiera och åtgärda de troliga orsakerna till problemet. Verktygen som användes, såsom "Aktivitetshanteraren", "Defragmentera och optimera enheter", antivirusprogram och "Enhetshanteraren", var effektiva för att diagnostisera och lösa problemet. 
+
+Felsökning med hjälp av generativ AI: 
+
+Det är möjligt att även använda template prompts för AI för att felsöka hårdvara, nätverk, ej uppstartsbara datorer och prestandaproblem. Så kallade “template prompts” kan vara väldigt effektiva för att felsöka hårdvaru-, nätverks-, uppstarts- och prestandaproblem med hjälp av AI. Här är några exempel på hur man kan strukturera sådana prompts: 
+
+Hårdvara: 
+
+Prompt: "Min [enhetstyp, t.ex. skrivare] [modellnamn] fungerar inte. Den [beskrivning av problemet, t.ex. skriver inte ut]. Jag har redan provat [lista över åtgärder som vidtagits]. Vad kan jag göra mer?" 
+
+AI-verktyget kan då: 
+
+Ställa följdfrågor för att få mer information om problemet. 
+
+Ge specifika felsökningssteg baserat på enhetstyp och modell. 
+
+Föreslå resurser som manualer eller supportforum. 
+
+Nätverk: 
+
+Prompt: "Jag kan inte ansluta till internet. Jag använder [typ av anslutning, t.ex. Wi-Fi] och min dator är en [operativsystem och version]. Jag har provat [lista över åtgärder som vidtagits]." 
+
+AI-verktyget kan då: 
+
+Guida användaren genom att kontrollera nätverksinställningar. 
+
+Föreslå kommandon för att diagnostisera nätverksproblem (t.ex. ping, ipconfig). 
+
+Hjälpa till att tolka felmeddelanden. 
+
+Ej uppstartsbara datorer: 
+
+Prompt: "Min dator startar inte. När jag slår på den [beskrivning av problemet, t.ex. visas en blå skärm med felmeddelande X]. Jag har provat [lista över åtgärder som vidtagits]." 
+
+AI-verktyget kan då: 
+
+Hjälpa till att tolka felmeddelanden och identifiera möjliga orsaker. 
+
+Guida användaren genom att använda återställningsverktyg eller installationsmedia. 
+
+Föreslå att söka efter lösningar online baserat på felmeddelandet. 
+
+Prestandaproblem: 
+
+Prompt: "Min dator är väldigt långsam. Den tar lång tid att starta upp och programmen laggar. Jag har [operativsystem och version] och [mängd RAM-minne]. Jag har provat [lista över åtgärder som vidtagits]." 
+
+AI-verktyget kan då: 
+
+Föreslå att kontrollera resursanvändning (CPU, minne, disk). 
+
+Guida användaren genom att inaktivera onödiga autostartprogram. 
+
+Föreslå att defragmentera hårddisken eller uppgradera hårdvara. 
+
+Fördelar med template prompts: 
+
+Struktur: Ger en tydlig struktur för att beskriva problemet. 
+
+Effektivitet: Gör det lättare för AI-verktyget att förstå problemet och ge relevant information. 
+
+Anpassningsbar: Mallen kan anpassas till olika typer av problem. 
+
+ 
+
+ 
+
+Källor och referenser: 
+
+Operativsystem: 
+
+Microsoft Windows: Dokumentation och supportresurser finns på Microsofts webbplats (https://www.microsoft.com/sv-se/windows/). 
+
+Linux: Information om olika Linux-distributioner och deras filsystem finns på distributionernas webbplatser (t.ex. Ubuntu, Fedora, Debian). 
+
+macOS: Apples webbplats (https://www.apple.com/se/macos/) har information om macOS och dess funktioner. 
+
+Fjärrhanteringsverktyg: 
+
+TeamViewer, AnyDesk, Splashtop: Information och dokumentation finns på respektive verktygs webbplats. 
+
+Microsoft Remote Desktop: Dokumentation finns på Microsofts webbplats. 
+
+VNC: Information om VNC finns på projektets webbplats (https://www.realvnc.com/). 
+
+ 
+
+Kurslitteratur och övningsuppgifter: 
+
+ 
+
+https://www.netacad.com/courses/computer-hardware-basics?courseLang=en-US 
+
+Modul 1 & 2 
+
+https://www.netacad.com/courses/operating-systems-basics?courseLang=en-US 
+
+Modul 1 & 2 
+
+https://www.tutorialspoint.com/operating_system/index.htm 
+
+https://www.geeksforgeeks.org/operating-systems/ 
+
+https://www.geeksforgeeks.org/what-is-secure-remote-access/ 
+
+https://learn.microsoft.com/en-us/troubleshoot/windows-server/remote/understanding-remote-desktop-protocol 
+
+https://learn.microsoft.com/en-us/troubleshoot/windows-server/remote/rdp-error-general-troubleshooting 
+
+https://learn.microsoft.com/en-us/troubleshoot/windows-client/remote/terminal-server-client-connection-failures 
+
+https://www.linkedin.com/advice/1/what-most-common-hardware-troubleshooting-methods 
+
+https://learn.microsoft.com/en-us/training/paths/troubleshoot-hardware-drivers/ 
+
+https://learn.microsoft.com/en-us/training/paths/troubleshoot-windows-client-operating-system-apps/ 
+
+Klientfelsökning - YouTube 
+
+ 
+
+ 
+
+ 
