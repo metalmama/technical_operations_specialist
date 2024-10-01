@@ -1,0 +1,263 @@
+Vad är ett ticket-system? 
+
+ 
+
+Det är ett elektoniskt kösystem för hantering av ärenden. Det är en programvara som företag använder för att hantera kundärenden. 
+
+ 
+
+Skapa och spara tickets.  
+
+ 
+
+ 
+
+Vad är en vanlig händelseordning för ett sådant system? 
+
+ 
+
+Submit request 
+
+Användare skickar ett ärende eller problem som en användare rapporterar. Dvs skicka och beskriver ett problem som hen har, exempelvis kan inte koppla en enhet till nätet.  
+
+Företag har olika system för att skicka in en requst om ett problem. T ex ärendehanteringssystem, appar, email system, web formulär etc. 
+
+Triage/Route the ticket 
+
+Den ska skickas till rätt kompetent team medlem som kan lösa uppgiften. 
+
+Filtrera meddelande, dela ut meddelandena till de som kan lösa problemen. 
+
+Kommunikation med användaren sker oftast direkt i ticket-systemet. 
+
+Ticket priotering är viktigt. Är det exempelvis säkerhet. 
+
+Varje ticket har ett unikt ID så det går att spåra i systemet eller t ex kopplas ihop med relaterade problem 
+
+Resolve the issue 
+
+-mottagit ticketen, kan teammeddlemmar lösa problemet och eskalera det i organisationen vid behov.    
+
+Close the ticket/matter 
+
+-När ärendet är löst så  dokumenteras det i ticketen och ärendet stängs. Mejl skickas till användaren. Databas med standardlösningar. Om det fortfarande är ett problem, så kommer användaren att höra av sig igen. 
+
+ 
+
+ 
+
+Varför är det viktigt för oss att ha processer som dessa på plats? 
+
+ 
+
+Effektivitet –tydliga processer minskar slöseri med tid 
+
+Team collaboration/ansvarsfördelning 
+
+Sparar pengar och tid 
+
+Spårbarhet - tydlig dokumentation av vad som hänt  
+
+Quality control av supporten 
+
+Kontinuitet - likvärdig service 
+
+Förbättringsmöjligheter 
+
+Kundnöjdhet 
+
+Förbättringsmöjligheter/hur mycket tid man spenderar på att lösa problem. 
+
+ 
+
+ 
+
+Vad är några av problemen som kan vara relaterade till en felaktig process? 
+
+ 
+
+Fördröjningar  
+
+Missade ärenden 
+
+Dålig kommunikation, missförstånd mellan support och användaren. 
+
+Ineffektivitet  
+
+Långa svarstider. 
+
+Bristande Kommunikation. 
+
+Ärenden kan gå förlorade utan ordentlig spårning. 
+
+ 
+
+ 
+
+Finns det olika typer av tickets och tillhörande processer? 
+
+ 
+
+IT- support, incididenter, tekniska problem, service förfrågningar, hårdvaru/mjukvarufel 
+
+Kundtjänst- klagomål, beställninger, kundfrågor, returer, fakturor 
+
+Ärendehanterinssystem - ansökan om nytt pass t ex 
+
+Beslutssystem - störe företag, om du vill ha en ny dator, skapas en ticket som skickas till chef för attestering, sen skickas den till rätt avdelnin. 
+
+HR – exempelvis ReachMe där fackliga representater, HR och chefer kan följa en rekryteringsprocess. 
+
+ 
+
+Vad är de huvudsakliga funktionerna i ett väl fungerande processhanteringssystem? 
+
+ 
+
+Automatisering  
+
+Användarvänlighet 
+
+Rapportering och analys 
+
+Integrationer med andra system, CRM, e-post etc 
+
+ 
+
+ 
+
+Hur bör man gå till väga om man implementerar det för första gången? 
+
+ 
+
+Definiera målen.  
+
+-Ska kunna sätta upp tydliga mål. SMART – analys 
+
+Specifikt 
+
+Mätbart 
+
+Accepterat 
+
+Realistiskt 
+
+Tidssatt 
+
+https://sv.wikipedia.org/wiki/SMART_(m%C3%A5lformulering) 
+
+Planera ett tillvägagångssätt för att uppnå detta. Viktigt att dokumentera detta. Dela målen med berörda medarbetare. Inga egna utsvävningar.  
+
+Förstå användarens förväntningar. 
+
+-Ställa frågor, försök förstå vad de är ute efter. Finns där tidsfrister? Hur man kan förbättra IT support processen. 
+
+-Manage client expectations. Vill ha enhörning, får max en ponny. 
+ 
+
+Onboarda/utbilda dina agenter/medarbetare/utförare 
+-Hur många personer behöver man i support teamet, hur stor är din avändarbas, antal förfrågningar man kan förväntas få etc. 
+
+-Se till att alla är insatta i sytemet. Utbilda användare och supportpersonal i hur systemet fungerar och vilka processer som gäller. 
+
+-Sätta av budget/tid för att medarbetarna ska behärska systemet. 
+
+-Teambuilding. Förtroende, bra samarbete, allt tickar på som vanligt. 
+
+ 
+
+Skapa fördefinierade regler för ett automatiserat arbetsflöde.  
+
+-t ex ticketutdelning.  
+
+-round robin biljettutdelning,  automatiskt sätt att tilldela tickets till relevanta support agenter.  
+
+-Tidsregler, fördefinierade tidsregler, ställa in tidsregel, feedback till kund efter att det är löst. “Hur nöjd var du med kontakten med support teamet....” 
+
+-mycket handlar om feedback 
+
+-Service avtal, regler, definierar nivån på service som utföraren ska leverera inom ramen för avtalet.  
+
+- Exempelvis, vi skickar ut att ditt ärende kommer att hanteras inom 4 timmar, så ska alla support agenter och ticket systemet vara med på detta.  
+
+-tjänsten ska göras mobiloptimerad 
+
+Skapa en avändarcentrerad kunskapsbas. (FAQ) 
+
+-En kunskapsbas med artiklar om hur  man löser problemet. 
+
+-Matchar kunskapsbasen med vad du skriver. Träd med felsökning.  ---> kan ha löst problemet med hjälp av FAQ.  
+
+-Skapar en pool med standardsvar innan man går vidare till att man kommer in i ticket sy systemet 
+
+-Uppdatera databasen med aktuell information.  
+
+-Borde vara lättare nu med AI? 
+
+Rikta in dig på rätt Key Performance Index – kan spåra nyckeltal (KPI). Konsekvent och spåra viktiga mätvärden, en rapporteringsfunktion i helpdesk.  
+
+Testköra sitt IT-ärendehanteringssystem.  
+
+ 
+
+ 
+
+Se över grafiken i länk #4, förstår ni samtliga delar av vad som visas? 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Varför är det ett bra flöde enligt er? 
+
+ 
+
+Har man användare som inte följer flödet spelar det inte någon roll hur bra flöde man har på papper. 
+
+Beskriver hur man bygger processer, det är bra.  
+
+Viktigt att man har en ungefärlig tidsram, t ex “vi kommer besvara ditt ärende inom [TIDSRAM]. Då blir ticketen självprioriterad i systemet/eskaleras. (Automatiserat ticket system som prioriterar ärendena enligt satta parametrar – t ex bevakningar som ges poäng). 
+
+Vissa ärenden behöver eskaleras upp i organisationen och det behöver finnas en process för detta.  
+
+Uppföljning efter avslutat ärende. Vad kan förbättras i processen/flödet? Kontinuerlig utveckling av flödet. 
+
+ 
+
+Vad behöver ni förstå för att bygga och hantera ett sådant flöde på en arbetsplats? 
+
+För att bygga och hantera ett sådant flöde behöver man förstå: 
+
+Organisationens behov: Vilka typer av incidenter hanteras, vilka servicenivåer krävs, etc. 
+
+IT-miljön: Vilka system och applikationer används, hur är nätverket konfigurerat, etc. 
+
+Roller och ansvar: Vem är ansvarig för vilka steg i processen. 
+
+Kommunikationskanaler: Hur användare rapporterar incidenter och hur de får uppdateringar. 
+
+Verktyg och teknik: Vilka verktyg och tekniker används för att hantera incidenter. 
+
+ 
+
+Hur skulle ni forma en strategi för detta? 
+
+ 
+
+Kartlägg nuvarande processer: Identifiera hur incidenter hanteras idag och vilka utmaningar som finns. 
+
+Definiera krav: Baserat på behovsanalysen, definiera tydliga krav på det nya flödet. 
+
+Designa flödet: Skapa ett flöde som uppfyller kraven och är anpassat till organisationens specifika behov. 
+
+Välj verktyg: Välj ett ticket-system och andra verktyg som stödjer det nya flödet. 
+
+Implementera och utbilda: Implementera det nya flödet och utbilda användare och IT-personal. 
+
+Övervaka och förbättra: Övervaka flödet kontinuerligt och gör justeringar vid behov. 
