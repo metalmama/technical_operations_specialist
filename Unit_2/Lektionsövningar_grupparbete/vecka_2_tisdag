@@ -1,0 +1,323 @@
+ 
+
+Tisdag 
+
+1 okt 
+
+Lektion 1: Vad är Support-Processer och Vad är Syftet? 
+
+13:00-17:00  
+
+Facit 
+
+1. Vad är ett ticket-system? 
+
+Ett ticket-system är ett verktyg som används för att hantera förfrågningar och problemrapporter inom en organisation, vanligtvis inom IT-support. Det fungerar genom att varje ärende eller problem konverteras till en "ticket" som spåras från början till slut, vilket hjälper till att strukturera och effektivisera support- och serviceprocesser. 
+
+ 
+
+2. Vad är en vanlig händelseordning för ett sådant system? 
+
+Den typiska händelseordningen för ett ticket-system är: 
+
+En användare skickar in en förfrågan eller rapporterar ett problem. 
+
+Ticketen skapas och tilldelas en unik identifierare. 
+
+Ticketen tilldelas en specifik person eller ett team. 
+
+Ärendet hanteras, där status ändras efter varje åtgärd. 
+
+Problemet löses, och ticketen stängs. 
+
+Eventuellt görs en uppföljning eller feedback samlas in. 
+
+3. Varför är det viktigt för oss att ha processer som dessa på plats? 
+
+Processer som dessa säkerställer att inga förfrågningar tappas bort eller hanteras ineffektivt. De ger struktur och transparens, förbättrar arbetsflödet och hjälper till att bibehålla kvalitén i tjänster. Dessutom blir det lättare att mäta och optimera verksamheten. 
+
+ 
+
+4. Vad är några av problemen som kan vara relaterade till en felaktig process? 
+
+Felaktiga processer kan leda till: 
+
+Dubbelarbete eller bortglömda ärenden. 
+
+Långa svarstider eller förseningar i ärendehanteringen. 
+
+Missnöjda kunder eller medarbetare. 
+
+Bristande spårbarhet och dokumentation. 
+
+Problem med att identifiera flaskhalsar och ineffektiva arbetsmetoder. 
+
+5. Finns det olika typer av tickets och tillhörande processer? 
+
+Ja, det finns olika typer av tickets, till exempel: 
+
+Incident-tickets för att lösa akuta problem. 
+
+Serviceförfrågningar för att begära nya tjänster. 
+
+Change-tickets som används för att spåra förändringar i system eller processer. Varje typ av ticket kan ha sin egen process, beroende på hur ärendet hanteras och vilken prioritet det ges. 
+
+6. Vad är de huvudsakliga funktionerna i ett väl fungerande processhanteringssystem? 
+
+De huvudsakliga funktionerna inkluderar: 
+
+Centraliserad hantering av alla ärenden. 
+
+Spårning av varje tickets status och framsteg. 
+
+Möjlighet att prioritera tickets baserat på deras kritikalitet. 
+
+Automatiserade flöden för eskalering och notifiering. 
+
+Tydlig dokumentation och rapportering av resultat och prestation. 
+
+7. Hur bör man gå till väga om man implementerar det för första gången? 
+
+För att implementera ett ticket-system för första gången bör man: 
+
+Kartlägga de processer som redan finns. 
+
+Definiera tydliga roller och ansvar. 
+
+Välja rätt verktyg som passar organisationens behov. 
+
+Testa och anpassa systemet för att säkerställa att det fungerar som tänkt. 
+
+Utbilda personal i hur systemet ska användas. 
+
+Följa upp med kontinuerliga förbättringar baserat på användning och feedback. 
+
+8. Se över grafiken i länk #4, förstår ni samtliga delar av vad som visas? 
+
+Grafiken visar ett tydligt flöde från det att ett problem upptäcks, hur det tas emot av en supportfunktion, till det att det hanteras och löses. De olika stegen bryts ned och visualiseras så att det är enkelt att följa processen från början till slut. 
+
+ 
+
+9. Varför är det ett bra flöde enligt er? 
+
+Flödet är bra eftersom det erbjuder tydlighet i varje steg och har inbyggda mekanismer för att prioritera ärenden och eskalera dem om nödvändigt. Det säkerställer också att alla tickets får en tydlig ägare och att uppföljning sker på ett systematiskt sätt. 
+
+ 
+
+10. Vad behöver ni förstå för att bygga och hantera ett sådant flöde på en arbetsplats? 
+
+För att kunna bygga och hantera ett sådant flöde måste ni förstå: 
+
+De specifika behoven och kraven inom er organisation. 
+
+Hur olika typer av ärenden ska hanteras och prioriteras. 
+
+Verktygens funktionalitet och hur ni kan automatisera vissa steg. 
+
+Roller och ansvar inom teamet för att undvika dubbelarbete eller försummelser. 
+
+11. Hur skulle ni forma en strategi för detta? 
+
+En strategi kan formas genom att: 
+
+Börja med att kartlägga existerande processer och identifiera deras svagheter. 
+
+Implementera ett ticket-system i liten skala först (pilotprojekt). 
+
+Få input från de som kommer att använda systemet för att anpassa flödet efter verkliga behov. 
+
+Sätta upp mätbara mål för svarstider, kundnöjdhet och effektivitet. 
+
+Skapa en plan för regelbunden utvärdering och förbättring. 
+
+ 
+
+Torsdag 
+
+3 okt 
+
+Lektion 2: Hur Konstrueras en Välfungerande Process inom IT? 
+
+08:00-12:00 
+
+Facit 
+
+1. Vad är en Service Level Agreement (SLA)? 
+
+En Service Level Agreement (SLA) är ett avtal mellan en tjänsteleverantör och en kund som definierar de specifika tjänstenivåer och prestationsstandarder som ska uppnås. Det klargör vad som förväntas av tjänsten, hur den kommer att levereras, samt vilka konsekvenser som uppstår om kraven inte uppfylls. 
+
+ 
+
+2. Varför är det viktigt att ha SLA-avtal i företag? 
+
+SLA-avtal säkerställer att båda parter (leverantör och kund) har en gemensam förståelse för tjänstens förväntade resultat. De skapar en ram för att hantera förväntningar, ansvar, och kvalitet, samt minskar risken för missförstånd. Genom att ha tydliga SLA-avtal kan företag mäta prestation och identifiera var förbättringar behövs. 
+
+ 
+
+3. Vilka parter är vanligtvis involverade i en SLA? 
+
+Vanligtvis är parterna i en SLA: 
+
+Tjänsteleverantören, som tillhandahåller tjänsten. 
+
+Kunden, som mottar tjänsten. 
+
+Mellanhand (ibland), i fall där en tredje part är involverad i hanteringen av SLAeller övervakning. 
+
+4. Vad är de vanligaste komponenterna i en SLA? 
+
+De vanligaste komponenterna i en SLA är: 
+
+Tjänstebeskrivning: Vad tjänsten innefattar. 
+
+Prestandakrav: Vilka nivåer av tjänstekvalitet som förväntas. 
+
+Sanktioner: Vad som händer om tjänsteleverantören inte uppfyller avtalet. 
+
+Rapporteringsmekanismer: Hur prestandan kommer att mätas och rapporteras. 
+
+Uppföljning och revision: Hur SLAska granskas och justeras över tid. 
+
+5. Hur påverkar SLA kundupplevelsen? 
+
+En väl definierad SLA förbättrar kundupplevelsen genom att säkerställa att tjänster levereras på en förutsägbar och pålitlig nivå. Kunder känner sig tryggare när det finns en tydlig ram för tjänsteleveransen, vilket bygger förtroende mellan kunden och leverantören. 
+
+6. Vad är skillnaden mellan en SLA och en Service Level Objective (SLO)? 
+
+En SLA är ett avtal som beskriver övergripande tjänstenivåer, medan ett Service Level Objective (SLO) är ett specifikt, mätbart mål som ska uppnås inom ramen för SLA 
+
+. SLOfungerar som delmål för att säkerställa att SLAuppfylls.7. Hur definieras och mäts tjänstenivåer i en SLA? 
+
+Tjänstenivåer definieras vanligtvis genom mätbara faktorer som: 
+
+Svarstid (t.ex. hur snabbt ett ärende behandlas). 
+
+Drifttid (t.ex. systemets tillgänglighet). 
+
+Prestandaindikatorer (t.ex. hur snabbt en specifik funktion fungerar). Dessa nivåer mäts med specifika nyckeltal (KPI) som rapporteras regelbundet. 
+
+8. Vilka typer av tjänster täcks vanligtvis av SLA-avtal? 
+
+De vanligaste tjänsterna som täcks av SLA-avtal är: 
+
+IT-support och underhållstjänster. 
+
+Mjukvarudrift och molntjänster. 
+
+Telekommunikation och internetleverantörer. 
+
+Leverans av hårdvara och infrastruktur. 
+
+9. Vad är fördelarna med att ha tydliga SLA-avtal? 
+
+Fördelarna med tydliga SLA-avtal inkluderar: 
+
+Klara förväntningar för både kund och leverantör. 
+
+Minskade risker för konflikter och missförstånd. 
+
+Bättre kontroll över tjänstens kvalitet och tillförlitlighet. 
+
+Möjlighet att övervaka och rapportera prestanda. 
+
+10. Vilka risker kan uppstå om SLA-avtal inte följs? Hur påverkar SLA-avtal IT-tjänster och leverantörer? 
+
+Om SLA-avtal inte följs kan det leda till: 
+
+Förlorat förtroende från kunder. 
+
+Ekonomiska påföljder för leverantören. 
+
+Ökad kundomsättning och förlorade affärsmöjligheter. SLAfungerar som ett skyddsnät för att säkerställa att IT-tjänster levereras på ett förutsägbart och tillförlitligt sätt. 
+
+11. Vilka är de vanligaste problemen som kan uppstå vid förhandlingar om SLA-avtal? 
+
+Vanliga problem vid förhandlingar inkluderar: 
+
+Otydliga eller orealistiska förväntningar. 
+
+Skillnader i hur prestanda mäts och rapporteras. 
+
+Svårigheter att definiera lämpliga påföljder om tjänster inte uppfylls. 
+
+12. Hur kan en organisation säkerställa att SLA-avtal är realistiska och uppnåeliga? 
+
+En organisation kan säkerställa realistiska SLA-avtal genom: 
+
+Att analysera tidigare prestation och kapacitet. 
+
+Involvera både tekniska och affärsmässiga experter för att sätta realistiska mål. 
+
+Fortlöpande övervakning och anpassning av SLAefter ändrade affärsbehov. 
+
+13. Vad är konsekvenserna om en tjänsteleverantör inte uppfyller SLA-kraven? 
+
+Konsekvenserna inkluderar ekonomiska påföljder (t.ex. avgifter eller rabatter), förlust av kunder eller affärsmöjligheter, och i värsta fall avslutande av avtalet. 
+
+ 
+
+14. Hur kan SLA-avtal anpassas till olika affärsbehov och branscher? 
+
+SLA-avtal kan anpassas genom att: 
+
+Definiera branschspecifika krav och mål. 
+
+Inkludera flexibla klausuler för att möta förändrade marknadsbehov. 
+
+Implementera skräddarsydda prestandamått för olika tjänstetyper. 
+
+15. Vilka metoder används för att övervaka och rapportera SLA-prestanda? 
+
+Vanliga metoder inkluderar: 
+
+Användning av automatiserade övervakningsverktyg. 
+
+Regelbundna rapporter om prestanda. 
+
+Dashboard-verktyg som visualiserar tjänstens status och SLA-efterlevnad. 
+
+16. Hur kan en organisation förbättra sin förmåga att uppfylla SLA-avtal? 
+
+För att förbättra sin förmåga att uppfylla SLA-avtal kan en organisation: 
+
+Kontinuerligt utbilda och utveckla sin personal. 
+
+Använda moderna verktyg för automatisering och övervakning. 
+
+Regelbundet granska och optimera sina interna processer. 
+
+17. Vad är SLA-trender och bästa praxis inom branschen just nu? 
+
+Några aktuella trender inkluderar: 
+
+Automatisering av SLA-övervakning. 
+
+Användning av AI och maskininlärning för att förutse och undvika SLA-brott. 
+
+Flexibla SLAsom kan justeras efter förändrade affärsförhållanden. 
+
+18. Hur hanteras ändringar och uppdateringar av SLA-avtal över tid? 
+
+SLA-avtal uppdateras vanligtvis genom regelbundna granskningar, där båda parter kan komma överens om att justera prestandamål och ansvarsområden baserat på förändrade affärsbehov eller teknologiska framsteg. 
+
+ 
+
+19. Vilka är de etiska övervägandena när det gäller SLA-avtal och dataskydd? 
+
+Etiska överväganden inkluderar: 
+
+Skydd av kundens data och integritet. 
+
+Transparens i hur data används och lagras. 
+
+Efterlevnad av lagar och regler som rör dataskydd, såsom GDPR. 
+
+Detta facit täcker de viktigaste aspekterna av Service Level Agreements och hur de påverkar företag och tjänster inom IT. 
+
+ 
+
+ 
+
+Vecka 2 
+
+ 

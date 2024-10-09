@@ -1,0 +1,163 @@
+
+
+
+Processhantering avtal och dokumentation
+Viola Lyeklint Hancock 
+viola@hancocksit.com
+Ludwig Simonsson
+
+Uppgiftsbeskrivning:
+
+Din uppgift är att följa en simulerad IT-process inom ett företag och dokumentera denna process samt relaterade avtal. Uppgiften är uppdelad i följande delar:
+Del 1: Dokumentation av IT-processhantering:
+Incidenthantering:
+
+Fiktiv IT-process:
+Incidenthantering
+
+Fiktivt företag: 
+"Molnbolaget AB" - ett företag som erbjuder molnbaserade tjänster till små och medelstora företag.
+
+Steg-för-steg beskrivning av incidenthanteringsprocessen:
+
+En kund upplever ett problem med en av Molnbolagets tjänster och rapporterar det via telefon, e-post eller ett webbformulär.
+
+Incidentregistrering:
+
+Supportteknikern tar emot incidentrapporten och registrerar den i företagets incidenthanteringssystem (t.ex. Jira Service Desk).
+
+Kategorisering och prioritering:
+
+Incidenten kategoriseras baserat på typ av problem (t.ex. nätverk, applikation, hårdvara) och prioriteras enligt allvarlighetsgrad (t.ex. kritisk, hög, medel, låg).
+
+Tilldelning:
+
+Incidenten tilldelas en lämplig tekniker baserat på kategori och tillgänglighet.
+
+Undersökning och diagnos:
+Teknikern undersöker incidenten och försöker diagnostisera orsaken till problemet.
+
+Lösning och återställning:
+
+Teknikern implementerar en lösning och återställer tjänsten.
+
+Avslut:
+Teknikern verifierar att problemet är löst och stänger incidenten i systemet.
+
+Uppföljning:
+
+En uppföljning görs med kunden inom en rimlig tidsram för att bekräfta att problemet är löst och samla in feedback.
+
+Dokumentationstekniker och system:
+
+Incidenthanteringssystem: 
+(t ex Jira Service Desk) kan användas för att registrera, spåra och hantera incidenter.
+
+Kunskapsbas:
+Används för att dokumentera lösningar och vanliga problem.
+
+E-post/live chat:
+Används under incidenthanteringen för för kommunikation med kunder. Kan innehålla standardiserat innehåll och FAQ/självdiagnosticering för att underlätta arbetet.
+
+Telefon:
+För direktkommunikation med kunder vid kritiska incidenter.
+Exempel på Service Level Agreement (“SLA) för incidenthantering:
+Viktiga punkter och mål i SLA:
+
+Definierar servicenivåer: 
+SLA:n anger tydligt vilka svars- och lösningstider som kunderna kan förvänta sig för olika typer av incidenter. Exempelvis:
+
+Prioritet		Svarstid		Lösningstid
+Kritisk			15 minuter		4 timmar
+Hög			30 minuter		8 timmar
+Medel			1 timme		24 timmar
+Låg			2 timmar		48 timmar
+
+
+
+
+Ökar transparensen: 
+SLA:n ger kunderna insyn i hur Molnbolaget hanterar incidenter.
+
+Stärker förtroendet: 
+SLA:n visar att Molnbolaget tar kundernas problem på allvar och strävar efter att lösa dem snabbt och effektivt.
+
+Del 2: Avtalshantering och lagar:
+Lagar och regler som styr dokumenthantering inom IT:
+GDPR:
+GDPR (General Data Protection Regulation) reglerar hur personuppgifter får samlas in, lagras och användas. Molnbolaget måste säkerställa att all hantering av kunddata sker i enlighet med GDPR.
+Dataskyddslagen:
+Dataskyddslagen kompletterar GDPR och specificerar ytterligare krav för hantering av personuppgifter i Sverige.
+
+Molnbolaget måste implementera rutiner och system för att skydda kundernas personuppgifter. Detta inkluderar säker lagring, åtkomstkontroll och kryptering av data.
+Bokföringslagen:
+Bokföringslagen reglerar hur räkenskapsinformation ska hanteras och arkiveras. 
+Molnbolaget måste följa dessa regler för att säkerställa korrekt bokföring.
+
+Molnbolaget måste arkivera räkenskapsdokument på ett säkert och tillgängligt sätt under den tid som lagen kräver.
+Analys av ett befintligt IT-avtal:
+Exempelavtal: Molntjänstavtal mellan Molnbolaget AB och en kund.
+
+Avtalet bör innehålla ändamålsenliga klausuler för följande viktiga delar:
+Definiering av parter
+Definierade termer i avtalet
+Tjänstebeskrivning
+Servicenivåer (dvs SLA)
+Priser och betalningsvillkor
+Ansvar och skyldigheter för båda parter
+Immateriella rättigheter
+Sekretess
+Force majeure
+Avtalstid och uppsägning
+Tvister
+Övriga standardklausuler för dylika kommersiella serviceavtal 
+
+Del 3: Organisering och administration
+Organisering och administration av kunder och ärenden:
+
+CRM-system (Customer Relationship Management) används för att lagra kundinformation, kommunikationshistorik och avtalsinformation.
+
+Incidenthanteringssystem (t ex Jira Service Desk) används för att hantera och spåra kundärenden och incidenter.
+
+Dokumentationssystem används för att lagra och organisera dokument relaterade till kunder och ärenden, t.ex. avtal, offerter och supportdokumentation.
+
+Fördelar med ovan organisation:
+
+Effektivitet: 
+All information om kunder och ärenden finns samlad på ett ställe, vilket underlättar hantering och uppföljning.
+
+Struktur: 
+Systemen ger en tydlig struktur för att organisera och hantera information.
+
+Tillgänglighet: 
+Informationen är lätt tillgänglig för behöriga användare.
+
+Säkerhet: 
+Systemen kan konfigureras för att skydda känslig information.
+
+Rapportering: 
+Systemen kan generera rapporter och analyser för att ge överblick och identifiera förbättringsområden.
+
+Summering/slutsats:
+Genom att kombinera ovan system och processer kan Molnbolaget AB effektivt hantera sina IT-processer, avtal och kundrelationer.
+
+
+Källor och referenser:
+Exempel och mallar på Omniway
+
+- https://www.wrangle.io/post/how-to-design-a-ticketing-system-process-flow
+
+- https://www.fool.com/the-ascent/small-business/it-management/articles/it-tickets/
+
+- https://www.proprofsdesk.com/blog/how-to-impement-ticketing-system/
+
+- https://blog.invgate.com/how-to-define-a-clear-help-desk-ticketing-process-flow
+
+1. https://www.coursera.org/articles/sla 
+
+2. https://itsoftware.se/sla-service-level-agreement/ 
+
+3. https://business.adobe.com/blog/basics/service-level-agreements-slas-a-complete-guide 
+
+
+
