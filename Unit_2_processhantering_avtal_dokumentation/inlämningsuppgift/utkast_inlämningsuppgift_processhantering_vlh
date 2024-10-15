@@ -1,0 +1,314 @@
+
+
+
+Processhantering avtal och dokumentation
+Viola Lyeklint Hancock 
+viola@hancocksit.com 
+Ludwig Simonsson
+
+
+Introduktion:
+
+Denna uppgift syftar till att fördjupa förståelsen för IT-processer, dokumenthantering och relaterade avtal. I min inlämningsuppgift  följer vi en simulerad incidenthanteringsprocess hos det fiktiva företaget "Molnbolaget AB", som levererar molnbaserade tjänster. Förutom kursmaterialet har jag även inkluderat  mina generella kunskaper och erfarenhet från min tid som jurist. 
+Incidenthantering hos Molnbolaget AB
+
+När en kund upplever problem med en tjänst, rapporteras detta via telefon, e-post eller webbformulär. En supporttekniker registrerar incidenten i företagets incidenthanteringssystem (t.ex. Jira Service Desk). Incidenten kategoriseras efter typ av problem (nätverk, applikation, hårdvara) och prioriteras utifrån allvarlighetsgrad (kritisk, hög, medel, låg). Därefter tilldelas den en lämplig tekniker som undersöker och diagnostiserar problemet. Teknikern implementerar sedan en lösning och återställer tjänsten. Slutligen verifieras lösningen och incidenten stängs i systemet. En uppföljning görs med kunden för att bekräfta att problemet är löst och att samla in feedback.
+
+Dokumentation och kommunikation
+
+Molnbolaget AB använder olika verktyg för att dokumentera och kommunicera under incidenthanteringsprocessen. Incidenthanteringssystemet används för att registrera och spåra incidenter. En kunskapsbas dokumenterar lösningar och vanliga problem. E-post och live chatt används för kundkommunikation, medan telefon används för direktkontakt vid kritiska incidenter.
+
+
+Service Level Agreement (händanefter “SLA”)
+En SLA definierar tydliga servicenivåer för kunderna. Den anger förväntade svars- och lösningstider för olika typer av incidenter, vilket ökar transparensen och stärker förtroendet mellan Molnbolaget AB och dess kunder. 
+
+Viktiga punkter och mål i ett standard SLA:
+
+Definierar servicenivåer: 
+SLA:n anger tydligt vilka svars- och lösningstider som kunderna kan förvänta sig för olika typer av incidenter. Exempelvis:
+
+
+Prioritet
+Svarstid (min)
+Lösningstid (tim)
+Kritisk
+15
+4
+Hög
+30
+8
+Medel
+60
+24
+Låg
+120
+48
+
+
+
+
+
+Ökar transparensen: 
+SLA:n ger kunderna insyn i hur Molnbolaget hanterar incidenter.
+
+Stärker förtroendet: 
+SLA:n visar att Molnbolaget tar kundernas problem på allvar och strävar efter att lösa dem snabbt och effektivt.
+
+
+Se bilaga 1 för ett exempel på ett SLA samt nedanstående tabell som tar upp viktiga klausuler/delar:
+
+
+Nummer
+Klausul
+Syfte/vad som avtalas
+1
+Introduction
+Här summeras syftet med avtalet. Detta är en överenskommelse mellan tjänsteleverantören (Provider) och kunden (Customer) som beskriver de tjänster som ska levereras, deras kvalitet, tillgänglighet och ansvarsområden.
+2
+Definitioner
+Här definieras nyckeltermer (avtalad betydelse av specifika ord) som används i avtalet:
+
+
+
+
+Provider: Tjänsteleverantören.
+
+
+
+
+Customer: Kunden som mottar tjänsterna.
+
+
+
+
+Services: De specifika tjänster som omfattas av SLA:n.
+
+
+
+
+Performance Metrics: Standarder och mått för att mäta tjänsternas kvalitet och tillgänglighet.
+
+
+
+
+Service Level Targets: Målsättningar för varje prestationsmått.
+
+
+
+
+Service Credits: Ersättningar eller kompensation till kunden vid bristande tjänstenivåer.
+3
+Tjänster
+Här beskrivs vilka tjänster som omfattas av SLA:n. Här specificeras de tjänster som leverantören ska tillhandahålla så att båda parterna är införstådda med vad som ska levereras under avtalet.
+4
+Prestationsmått
+Måtten för att bedöma tjänsternas kvalitet så att parterna har ett verktyg för att se om åtagandena i avtalet har uppfyllts.
+
+
+
+
+Tillgänglighet/Uptime: Hur stor del av tiden tjänsterna är tillgängliga.
+
+
+
+
+Responstid: Tiden det tar för leverantören att svara på kunders förfrågningar.
+
+
+
+
+Lösningstid: Tiden det tar för leverantören att lösa kundens rapporterade problem.
+
+
+
+
+Tjänster Tillförlitlighet: Hur ofta tjänsterna avbryts eller misslyckas.
+
+
+
+
+Kundnöjdhet: Kundens feedback och betyg av tjänsternas kvalit
+5
+Servicemålsättningar
+Här infogar man målen som man kommit överens om. Det blir då tydligt för båda parterna vad som förväntas och ger tydligt mätbara leveransmål. De uppsatta målen för prestationsmålen:
+
+
+
+
+Tillgänglighet/Uptime: [Målprocent]
+
+
+
+
+Responstid: [Måltid]
+
+
+
+
+Lösningstid: [Måltid]
+
+
+
+
+Tjänstetillförlitlighet: [Målfrekvens]
+
+
+
+
+Kundnöjdhet: [Målbetyg]
+6
+Service credits
+Här avtalar man om vad konsekvenserna av att inte uppfylla sina åtaganden i avtalet. Om leverantören inte uppfyller servicenivåmålsättningarna kan kunden vara berättigad till kompensation:
+
+Tillgänglighet/Uptime: [Servicekreditprocent] av månatliga avgifter per procentsats under målet.
+
+Responstid: [Servicekreditbelopp] per timme av försening utöver måltiden.
+
+Lösningstid: [Servicekreditbelopp] per timme av försening utöver måltiden.
+7
+Rapportering och övervakning
+Här avtalar parterna om hur service leveransen ska dokumenteras för att se om målen har nåtts av leverantören, vilket i sin tur gör att det kan bevisa att leverantören ska övervaka och rapportera prestationsmålen regelbundet och tillhandahålla rapporter till kunden.
+8
+Problemlösning
+Rutiner för att rapportera, eskalera och lösa kundens rapporterade problem i tid.
+9
+Upphörande
+Här avtalar man om hur parterna kan säga upp avtalet. Endera parten kan säga upp SLA:n med [Uppsägningstid] skriftligt meddelande om den andra parten inte åtgärdar ett väsentligt brott mot avtalet inom den angivna tiden.
+10
+Granskning och revidering
+I ett avtal finns vanligtvis en "fyra hörnen av sidan klausul", dvs en klausul där det avtalas att hela avtalet finns nedskrivet i detta dokument. Det är därför viktigt att alla variationer eller uppdateringar av SLA ska göras skriftligen och skrivs under av båda parterna. Om man inte gör det kan man göra lite som man vill och hävda att det innefattas i SLA. Eftersom teknologi förändras över tid är det viktigt att SLA revideras och uppdateras så att det är relevant för tiden parterna lever i. Intåget av generativ AI är ett bra exempel på hur man behöver se över befintliga SLA. SLA:n ska ses över regelbundet och kan revideras vid behov för att återspegla förändringar i affärskrav, tjänsteutbud eller prestationsmått.
+11
+Tvister
+Om det blir konflikter/dispyter om parterna har uppfyllt sitt ansvar under SLA, så behöver man specificera vilket lands lag (jurisdiktion) som ska gälla. Lagar skiljer sig från land/jurisdikton och om man inte specificerar så blir det ännu en förhandling i domstol för att säkeretsställa under vilken lag ett potentiellt avtalsbrott ska prövas.Tillämplig lagAvtalet styrs av och tolkas i enlighet med lagarna i [Jurisdiktion]. Eventuella tvister ska lösas genom
+
+
+
+Mot bakrund av ovan  kan vi se att vi saknar en del viktiga komponeneter som är markerade i fet stil:
+
+Avtalet bör innehålla ändamålsenliga klausuler för följande viktiga delar:
+Definiering av parter
+Definierade termer i avtalet
+Tjänstebeskrivning
+Servicenivåer (dvs SLA)
+Priser och betalningsvillkor
+Ansvar och skyldigheter för båda parter
+Immateriella rättigheter
+Sekretess
+Force majeure
+Avtalstid och uppsägning
+Tvister
+Övriga standardklausuler som är vanliga/typiska för branschen.
+
+Det är värt att notera att klausuler som behandlar sekretess, force majeure etc. bör finnas med i alla kommersiella avtal. De kallas vanligtvis “boilerplate clauses” av jurister och varierar i vilken jurisdiktion och ibland även vilken bransch parterna är i. 
+
+Avtalshantering och lagar
+Molnbolaget AB följer lagar och regler som styr dokumenthantering inom IT, inklusive GDPR, dataskyddslagen och bokföringslagen. Detta innebär att företaget implementerar rutiner och system för att skydda kundernas personuppgifter och arkivera räkenskapsdokument på ett korrekt sätt. Ett typiskt molntjänstavtal mellan Molnbolaget AB och en kund innehåller klausuler om tjänstebeskrivning, servicenivåer, priser, ansvar, immateriella rättigheter, sekretess, force majeure, avtalstid och tvister.
+
+Organisation och administration
+Molnbolaget AB använder ett CRM-system för att hantera kundinformation och ett incidenthanteringssystem för att spåra ärenden. Dokumentationssystem används för att organisera avtal, offerter och supportdokumentation. Dessa system ger effektivitet, struktur, tillgänglighet, säkerhet och möjligheter till rapportering.
+Summering/reflektion.
+Genom att kombinera ovan system och processer kan Molnbolaget AB effektivt hantera sina IT-processer, avtal och kundrelationer.
+
+Denna övning har gett mig en djupare förståelse för hur IT-processer kan struktureras och dokumenteras för att säkerställa effektivitet och transparens. Att analysera ett befintligt SLA/ett IT-avtal har ökat min medvetenhet om vikten av tydliga avtal och efterlevnad av lagar och regler inom IT. Som jurist vill jag understryka hur avgörande det är att ha en väl fungerande dokumenthantering för att skydda både företaget och kundernas intressen. Det har varit roligt att kunna applicera min tidigare kunskap av kommersiella avtal på ett IT-avtal, en juridisk inriktning som jag inte har jobbat med tidigare. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Källor och referenser:
+Exempel och mallar på Omniway
+
+https://www.wrangle.io/post/how-to-design-a-ticketing-system-process-flow
+
+https://www.fool.com/the-ascent/small-business/it-management/articles/it-tickets/
+
+https://www.proprofsdesk.com/blog/how-to-impement-ticketing-system/
+
+https://blog.invgate.com/how-to-define-a-clear-help-desk-ticketing-process-flow
+
+https://www.coursera.org/articles/sla 
+
+https://itsoftware.se/sla-service-level-agreement/ 
+ https://business.adobe.com/blog/basics/service-level-agreements-slas-a-complete-guide 
+https://getterms.io/resources/free-service-level-agreement-template
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bilaga 1:
+Free Service Level Agreement (SLA) Template
+Introduction
+This Service Level Agreement (“SLA”) is a contract between [ Service Provider Name ] (“Provider”) and [ Customer Name ] (“Customer”) that outlines the quality, availability, and responsibilities associated with the services provided by the Provider. This SLA sets forth the agreed-upon standards, metrics, and procedures to ensure consistent service delivery and manage customer expectations.
+Definitions
+Provider: [ Service Provider Name ], the entity responsible for delivering the services outlined in this SLA.
+Customer: [Customer Name], the entity receiving the services provided by the Provider.
+Services: The specific services covered under this SLA, as described in Section 3.
+Performance Metrics: The standards and metrics used to measure the quality and availability of the services, as outlined in Section 4.
+Service Level Targets: The desired levels of performance for each performance metric, as defined in Section 4.
+Service Credits: Compensation or remedies provided to the Customer in the event of service failures, as detailed in Section 6.
+Services
+The services covered under this SLA include, but are not limited to:
+[ Description of Service 1 ]
+[ Description of Service 2 ]
+[ Description of Service 3 ]
+Performance Metrics
+The performance of the services will be measured based on the following metrics:
+Availability/Uptime Percentage: The percentage of time during which the services are available and accessible to the Customer.
+Response Time: The time taken by the Provider to respond to customer inquiries, requests, or incidents.
+Resolution Time: The time taken by the Provider to resolve customer-reported issues or incidents.
+Service Reliability: The frequency of service interruptions or failures.
+Customer Satisfaction: Customer feedback and satisfaction ratings regarding the quality of services are provided by the customer.
+Service Level Targets
+The following targets have been established for the performance metrics:
+Availability/Uptime Percentage: [ Target Percentage ]
+Response Time: [ Target Timeframe ]
+Resolution Time: [ Target Timeframe ]
+Service Reliability: [ Target Frequency ]
+Customer Satisfaction: [ Target Rating ]
+Service Credits
+In the event that the Provider fails to meet the service level targets outlined in this SLA, the Customer may be eligible to receive service credits as follows:
+Availability/Uptime Percentage: [ Service Credit Percentage ] of monthly service fees for each percentage point below the target uptime percentage.
+Response Time: [ Service Credit Amount ] for each hour of delay beyond the target response time.
+Resolution Time: [ Service Credit Amount ] for each hour of delay beyond the target resolution time.
+Reporting and Monitoring
+The Provider will monitor and report performance metrics on a [ Frequency ] basis. Reports will be provided to the Customer detailing performance against the service level targets.
+Issue Resolution
+The Provider will follow the procedures outlined in the SLA for reporting, escalating, and resolving customer-reported issues or incidents in a timely manner.
+Termination
+Either party may terminate this SLA with [ Notice Period ] written notice if the other party fails to remedy a material breach of the agreement within the specified timeframe.
+Review and Revision
+This SLA will be subject to periodic review and may be revised as necessary to reflect changes in business requirements, service offerings, or performance metrics.
+Governing Law
+This SLA shall be governed by and construed in accordance with the laws of [ Jurisdiction ]. Any disputes arising from or in connection with this SLA shall be resolved through mutual negotiation or mediation.
+Signatures
+This SLA shall become effective upon execution by authorized representatives of both parties.[ Signature of Provider Representative ]                [ Signature of Customer Representative ][ Printed Name of Provider Representative ]        [ Printed Name of Customer Representative ][ Date ]                                                                          [ Date ]
+Conclusion
+This Service Level Agreement outlines the mutual commitments, responsibilities, and expectations between the Provider and the Customer regarding the services provided. By adhering to the terms and standards outlined in this SLA, both parties aim to ensure the delivery of high-quality, reliable services that meet the needs and expectations of the Customer.
+https://getterms.io/resources/free-service-level-agreement-template
