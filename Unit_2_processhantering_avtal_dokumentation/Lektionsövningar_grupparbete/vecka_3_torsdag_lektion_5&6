@@ -1,0 +1,147 @@
+Vad är de vanliga typerna av IT-dokument 
+
+Vad ska man ha  nära tillhanda när man jobbar som TechOps
+
+Inventarie (hårdvara och mjukvara)
+
+ - tydlig lista pga anskaffnings anledningar, vad har vi, när behöver vi något nytt. Teknisk lagerstatus.
+ - vad arbetar vi med för sorts av operativsystem
+-vilka komponenter
+-vilka mjukvaror
+- blir vår fusklapp när vi håller allt uppdaterat, skyddat, se till att kommunikationen satts upp på rätt sätt. 
+- effektiva, mer produktiva, lättare kunskapsöverföring, bättre samarbete och kommunikation, säkrare och mer medgörligt.
+
+Hårdvaru- och mjukvaruinventarier är väldigt vanligt.
+
+Diagram/Topologi över Nätverk
+
+Hur är det sammansvetsat, logiskt sammankopplade. 
+Exempelvis hemma nätverk - hårdvara, fysiska saker i hemmet.
+Logiska, hur vi 
+Kontroll över detta, om klient har problem, vid tex klient felsökning, var är det placerat, vilken väg över nätverket, vad finns det för hårdvara och mjukvara?
+Logiskt överblick över vad man har att arbeta med.
+Fysiska och logiska delar. 
+Fysiska - vad är det för hårdvara och var sitter de?
+Logiska - allt det andra tekniska runt omkring.
+
+Exempelvis servrar, litet kontor, serverrum med namn. 
+Inom industri, kan ha 20 byggnader, byggnads kod, koordinater, plats i server hyllan.
+
+Använder D&T för att exempelvis genomföra runtime övervakning.
+
+Infrastruktursdokumentation
+
+Närmre bild på exempelvis mindre dela, om har 20 byggnader, dokument 1 byggnad, dokument 1 rum etc så att det bryts ner till mer specifik information.
+
+Kombineras med D&T och Systemdokumentation.
+
+Systemdokumentation
+Hur är det webbservern konfigurerar, hur ser exakt den webbapplikationen ut. En djupdykning i detalj för att kunna exempelvis felsöka något.
+
+Referens/länkar i sig för att 
+
+Dokumenthanteringshänförande, ta sig från ett dokument till ett annat. vill se dokumenten som en hierarki så att vi alltid kan hitta det vi behöver. 
+
+Hur är det uppritat eller sammansvetsat. 
+
+Standard Operating Procedure (SOP)
+
+Tydliga arbetsuppgifter och för hur vi använder ovanstående dokumentation.
+
+Exempelvis hur vi underhåller våra servrar eller hur vi sköter uppdateringar. 
+
+Det här dokumentet används när vi har standard utövanden som vi behöver att göra.
+
+Processdokumentation
+
+När en organisation arbetar med IT över lag, finns det olika processer som IT äger. 
+
+-Förändringshantering. NB. RFC - request for comment, request for change. Faller inom förändringshanteringen och hur den ska gå till.
+
+
+-Mjukvaruutveckling.
+-Driftsättning av nyt system.
+
+En dokumentation över hur man ska utföra detta specifika arbetet.
+För vare arbetsprocess som är omfattande och har stor inverkan på organisationen ska man ha en steg för steg process.
+
+Vardaglig dokumentation
+
+Användarguider och manualer
+Felsökningsguider och FAQ
+
+Incidenthanteringsdokument
+
+Viktigast för TechOps
+
+Preventiva incidenthanteringsdokument. Visualiserat att detta kan hända, så man är förberedd för dagen den händer.
+
+Ex vad gör vi om serverns crashar, vad gör vi då.
+
+Om vi stöter på ett problem som vi nte har haft tidigare, då skriver vi ett nytt incidenthanteringsdokument, när vi har löst problemet, på så sätt är vår dokumentation ett levande dokument. 
+
+
+Vad är best praxis för att utveckla dessa dokument?
+
+
+Finns lätt utstegad vad man ska tänka på för att utveckla ett bra IT dokument. 
+
+5 steg som vi alltid ska ta med oss och tänka på.
+
+Etablera en dokumenthanterings strategi och övervakning (om företaget redan har en strategi så ska du sätta dig in i dokumenten). Hur ska dokumenten under livscykel hanteringen, skapas, underhållas, sparas, tas bort. (i strategi). Tex dokumenthanteringsstrategins målsättning är att alla som har behörighet ska ha access till ett specifikt dokument. 
+Använda rätt verktyg och mallar. Bygger ut och presenterar att detta ska vara med, detta är mallen/skelett och så fyller man i det som vi ska ha med. Här väljer man verktyget som dokumenthanteringssystemet ska använda som databas. Ibland kombinerar man dokumenthanteringssystemet och ticket systemet. Vad ska användas, hur ska det användas?
+Designera ägarskap och ansvar. När vi skapar IT dokumentation, underhållning, versionshantering, vem äger dokumentet, vem har ansvar för dokumentet? Ansvar att uppdatera och se till att dokumentet är up to date och relevant för organisationen. Dokumenten ska alltid vara korrekta och ha en versionshistorik.
+Uppdatera på reguljär basis, se till att det alltid är up to date och inga fel i IT dokumentet. (uppdateringscykel).
+Fördela access, när 1-4 är på plats så kan vi ge folk access till dokumentet. 
+
+Bra uppföljning av processer.
+Hur ska vi hantera för att utvecklas på rätt sätt. 
+
+Vad är det allra viktigaste? 
+
+Klassificering och Organiserad Struktur
+
+
+När vi organiserar våra dokument så har vi olika klasser, författare, ägare, typ, datum skapades, system gäller det? Det ger klassificering till dokumentet. 
+
+Exempelvis: Är det ett SLA som är skrivet idag utav mig, mapp SLA, vilken tjänst, vilken leverantör, för att klassificera det, organiserat in i vår struktur
+
+NB. Tagging
+Om man har ett filhanteringssystem, så vill man inte döpa allt till SLA  t ex så då kallar man vad man vill och sedan taggar man det. Det är egentligen en typ av accesshanteringssystem. 
+
+
+Spårbarhet och förändrings versioner
+Acesshanteringen 
+Hur får vi alla att tänka såhär/följa arbetssätt.
+Tydliga policies och regler.
+Träning/ onboarding.
+
+Oavsett om vi bemästrar allt de här som sammanfattats i kursen, så är de mest viktiga take aways klassificering, organisering, spårbarhet, accesshantering…
+
+AI inom Dokument och Dokumenthantering
+
+Generativt syfte
+Ta fram material, 
+
+Exepelvis “Hur bör ett inventariedokument skrivas för en Technincal Operations Specialist so behöver bokföra och få ordning på både hårdvara och mjukvara som änvänds in organisationen i en inventarieform.” 
+
+Analytiskt påskyndande. Om det var en äkta organisation, inte chatgpt, undvika publika databasen. Använd inom 365 copilot, ska prata mer om detta i copilot. 
+
+
+Söksyfte
+
+Detta är ett exempel på en SLA mall med avtal kan du sammanfatta detta åt mig? Ange även om något saknas. 
+
+Ta tillvara på det som ett utvecklingsstöd, informationsstöd, hjälpa oss att genera fram inforamtion , skapa dokument aoch mallarna, hitta information i redan skapade dokument. 
+
+NB. många bygger upp AI lokalt för att kunna se till att ens data inte laddas up till openAI utan att det finns inom ett säkehetssystem.
+
+Fråga GDPR
+
+
+Territorial scope
+GDPR - därifrån personinformationen insamlas. Även om hela infrastrukturer i US så är det när 
+
+Best praxis, följa den jurisdiktion som är mest strikt. 
+
+Microsoft, Amazon, datacenter i Sveige för att deras data ska kunna finnas här i Sverige, så att de inte kommer att förlora kunder. 
