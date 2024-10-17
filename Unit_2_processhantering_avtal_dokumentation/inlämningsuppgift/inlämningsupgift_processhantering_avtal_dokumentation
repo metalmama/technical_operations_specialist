@@ -1,0 +1,738 @@
+
+
+
+Processhantering avtal och dokumentation
+Viola Lyeklint Hancock 
+viola@hancocksit.com 
+Ludwig Simonsson
+
+
+Introduktion:
+
+Denna uppgift syftar till att fördjupa förståelsen för IT-processer, dokumenthantering och relaterade avtal. I min inlämningsuppgift  följer vi en simulerad incidenthanteringsprocess hos det fiktiva företaget "Molnbolaget AB", som levererar molnbaserade tjänster. Förutom kursmaterialet har jag även inkluderat  mina generella kunskaper och erfarenhet från min tid som jurist. 
+
+Del 1: Dokumentation av IT-processhantering
+Incidenthantering hos Molnbolaget AB
+
+Molnbolaget AB använder olika verktyg för att dokumentera och kommunicera under incidenthanteringsprocessen. Incidenthanteringssystemet används för att registrera och spåra incidenter. En kunskapsbas dokumenterar lösningar och vanliga problem. E-post och live chatt används för kundkommunikation, medan telefon används för direktkontakt vid kritiska incidenter
+
+När en kund upplever problem med en tjänst, rapporteras detta via telefon, e-post eller webbformulär. En supporttekniker registrerar incidenten i företagets incidenthanteringssystem (t.ex. Jira Service Desk). Incidenten kategoriseras efter typ av problem (nätverk, applikation, hårdvara) och prioriteras utifrån allvarlighetsgrad (kritisk, hög, medel, låg). Därefter tilldelas den en lämplig tekniker som undersöker och diagnostiserar problemet. Teknikern implementerar sedan en lösning och återställer tjänsten. Slutligen verifieras lösningen och incidenten stängs i systemet. En uppföljning görs med kunden för att bekräfta att problemet är löst och att samla in feedback.
+.
+
+Följande är en steg-för-steg summering av processen incidenthantering hos Molnbolaget AB.
+
+Steg-för-steg-process:
+Fas
+Ansvarig
+Beskrivning
+Tidsram
+Incidentrapportering
+Användare eller automatiserat system
+Incidenten rapporteras via ett ärendehanteringssystem eller direkt till IT-supporten.
+Omedelbart vid upptäckt
+Incidentklassificering
+IT-support
+Incidenten klassificeras baserat på allvarlighetsgrad och påverkan.
+Inom 15 minuter
+Incidentprioritering
+IT-support
+Incidenten prioriteras för att bestämma åtgärdsordning.
+Inom 30 minuter
+Incidentåtgärd
+IT-tekniker
+Åtgärder vidtas för att lösa incidenten.
+Inom 2 timmar för högprioriterade incidenter
+Incidenteskalering
+IT-support
+Om incidenten inte kan lösas inom den initiala tidsramen eskaleras den till en högre nivå.
+Efter 2 timmar
+Incidentlösning och återställning
+IT-tekniker
+Incidenten löses och systemet återställs till normal drift.
+Inom 4 timmar
+Incidentdokumentation och avslut
+IT-support
+Incidenten dokumenteras och ärendet stängs.
+Inom 1 timme
+
+
+
+
+Analys av ett standard Service Level Agreement (händanefter “SLA”)
+
+Ett typiskt molntjänstavtal mellan Molnbolaget AB och en kund, dvs ett SLA, innehåller klausuler om tjänstebeskrivning, servicenivåer, priser, ansvar, immateriella rättigheter, sekretess, force majeure, avtalstid och tvister.
+
+Ett SLA definierar tydliga servicenivåer för kunderna. Den anger förväntade svars- och lösningstider för olika typer av incidenter, vilket ökar transparensen och stärker förtroendet mellan Molnbolaget AB och dess kunder. 
+
+Viktiga punkter och mål i ett standard SLA:
+
+Se bilaga 1 för ett exempel på ett SLA samt nedanstående tabell som tar upp viktiga klausuler/delar:
+
+
+Nummer
+Klausul
+Syfte/vad som avtalas
+1
+Introduction
+Här summeras syftet med avtalet. Detta är en överenskommelse mellan tjänsteleverantören (Provider) och kunden (Customer) som beskriver de tjänster som ska levereras, deras kvalitet, tillgänglighet och ansvarsområden.
+2
+Definitioner
+Här definieras nyckeltermer (avtalad betydelse av specifika ord) som används i avtalet: <br>Provider: Tjänsteleverantören. <br>Customer: Kunden som mottar tjänsterna. <br>Services: De specifika tjänster som omfattas av SLA:n. <br>Performance Metrics: Standarder och mått för att mäta tjänsternas kvalitet och tillgänglighet. <br>Service Level Targets: Målsättningar för varje prestationsmått. <br>Service Credits: Ersättningar eller kompensation till kunden vid bristande tjänstenivåe
+3
+Tjänster
+Här beskrivs vilka tjänster som omfattas av SLA:n. Här specificeras de tjänster som leverantören ska tillhandahålla så att båda partena är samförstådda med vad som ska levereras under avtalet.
+4
+Prestationsmått
+Måtten för att bedöma tjänsternas kvalitet så att parterna har ett verktyg för att se om åtagandena i avtalet har uppfyllts. <br>Tillgänglighet/Uptime: Hur stor del av tiden tjänsterna är tillgängliga. <br>Responstid: Tiden det tar för leverantören att svara på kundens förfrågningar. <br>Lösningstid: Tiden det tar för leverantören att lösa kundens rapporterade problem. <br>Tjänstetillförlitlighet: Hur ofta tjänsterna avbryts eller misslyckas. <br>Kundnöjdhet: Kundens feedback och betyg av tjänsternas kvalitet
+5
+Servicemålsättningar
+Här infogar man målen som man kommit överens om. Det blir då tydligt för båda parterna vad som förväntas och ger tydligt mätbara leveransmål. De uppsatta målen för prestationsmåtten: <br>Tillgänglighet/Uptime: [Målprocent] <br>Responstid: [Måltid] <br>Lösningstid: [Måltid] <br>Tjänstetillförlitlighet: [Målfrekvens] <br>Kundnöjdhet: [Målbetyg]
+6
+Service credits
+Här avtalar man om vad konsekvenserna av att inte uppfylla sina åtaganden i avtalet. Om leverantören inte uppfyller servicenivåmålsättningarna kan kunden vara berättigad till kompensation: <br>Tillgänglighet/Uptime: [Servicekreditprocent] av månatliga avgifter per procentsats under målet. <br>Responstid: [Servicekreditbelopp] per timme av försening utöver måltiden. <br>Lösningstid: [Servicekreditbelopp] per timme av försening utöver måltiden.
+7
+Rapportering och övervakning
+Här avtalar parterna om hur service leveransen ska dokumenteras för att se om målen har nåtts av leverantören, vilket i sin tur gör att det kan bevisas. Leverantören ska övervaka och rapportera prestationsmåtten regelbundet och tillhandahålla rapporter till kunden.
+8
+Problemlösning
+Rutiner för att rapportera, eskalera och lösa kundens rapporterade problem i tid.
+9
+Upphörande
+Här avtalar man om hur parterna kan säga upp avtalet. Endera parten kan säga upp SLA:n med [Uppsägningstid] skriftligt meddelande om den andra parten inte åtgärdar ett väsentligt brott mot avtalet inom den angivna tiden.
+10
+Granskning och revidering
+I ett avtal finns vanligtvis en "fyra hörnen av sidan klausul", dvs en klausul där det avtalas att hela avtalet finns nedskrivet i detta dokumentet. Det är därför viktigt att alla variationer eller uppdateringar av SLA ska göras skriftligen och skrivs under av båda parterna. Eftersom teknologi förändras över tid är det viktigt att SLA revideras och uppdateras så att det är relevant för tiden parterna lever i. SLA:n ska ses över regelbundet och kan revideras vid behov för att återspegla förändringar i affärskrav, tjänsteutbud eller prestationsmått.
+11
+Tvister
+Om det blir konflikter/disputer om parterna har uppfyllt sitt ansvar under SLA, så behöver man specificera vilket lands lag (jurisdiktion) som ska gälla. Lagar skiljer sig från land/jurisdiktion och om man inte specificerar så blir det ännu en förhandling i domstol för att säkerställa under vilken lag ett potentiellt avtalsbrott ska prövas. Avtalet styrs av och tolkas i enlighet med lagarna i [Jurisdiktion]. Eventuella tvister ska lösas genom [Metod].
+
+
+
+Mot bakrund av ovan  kan vi se att vi saknar en del viktiga komponeneter/klausuler i avtalet som är markerade i fet stil:
+
+
+Definiering av parter
+Definierade termer i avtalet
+Tjänstebeskrivning
+Servicenivåer (dvs SLA)
+Priser och betalningsvillkor
+Ansvar och skyldigheter för båda parter
+Immateriella rättigheter
+Sekretess
+Force majeure
+Avtalstid och uppsägning
+Tvister
+Övriga standardklausuler som är vanliga/typiska för branschen.
+
+Det är värt att notera att klausuler som behandlar sekretess, force majeure etc. bör finnas med i alla kommersiella avtal. De kallas vanligtvis “boilerplate clauses” av jurister och varierar i vilken jurisdiktion och ibland även vilken bransch parterna är i. 
+
+
+
+Del 2: Avtalshantering och lagar
+
+Lagar och regler som styr dokumenthantering inom IT
+Molnbolaget AB måste följa lagar och regler som styr dokumenthantering inom IT, inklusive GDPR, dataskyddslagen och bokföringslagen. Jag har summerat relevant lagstiftning i nedanstående tabell:
+
+Summering av lagar och regler
+
+Lagrum
+Syfte
+Vad Molnbolaget AB måste göra
+GDPR
+GDPR (General Data Protection Regulation) reglerar hur personuppgifter får samlas in, lagras och användas. Molnbolaget måste säkerställa att all hantering av kunddata sker i enlighet med GDPR.
+Molnbolaget måste säkerställa att all hantering av
+Dataskyddslagen
+Dataskyddslagen kompletterar GDPR och specificerar ytterligare krav för hantering av personuppgifter i Sverige.
+Molnbolaget måste under ovanstående lagrum implementera rutiner och system för att skydda kundernas personuppgifter. Detta inkluderar säker lagring, åtkomstkontroll och kryptering av data.
+
+Vi ska titta lite närmare på viktiga principer och termer i GDPR/Dataskyddslagen som är relevanta för Molnbolaget AB. De finns summerade i följande tabell:
+
+
+
+Kategori
+Term
+Beskrivning
+Principer för databehandling
+Laglighet
+Personuppgifter ska behandlas lagligt och i enlighet med lagen.
+
+
+Korrekthet
+Personuppgifter ska behandlas på ett rättvist och transparent sätt.
+
+
+Öppenhet
+Databehandling ska ske på ett öppet sätt och den registrerade ska informeras om behandlingen av deras data.
+
+
+Ändamålsbegränsning
+Personuppgifter ska samlas in för specifika, uttryckligt angivna och legitima ändamål och inte behandlas på ett sätt som är oförenligt med dessa ändamål.
+
+
+Uppgiftsminimering
+Endast de personuppgifter som är nödvändiga för ändamålen ska behandlas.
+
+
+Riktighet
+Personuppgifter ska vara korrekta och uppdaterade vid behov.
+
+
+Lagringsminimering
+Personuppgifter ska förvaras i en form som möjliggör identifiering av registrerade endast så länge som är nödvändigt för ändamålen.
+
+
+Integritet och konfidentialitet
+Personuppgifter ska behandlas på ett sätt som säkerställer lämplig säkerhet och konfidentialitet.
+
+
+Ansvarskyldighet
+Den personuppgiftsansvarige ska kunna visa att principerna efterlevs.
+Nyckeltermer
+Data Subject
+Den fysiska person som personuppgifterna rör.
+
+
+Personal Data
+All information som direkt eller indirekt kan identifiera en fysisk person.
+
+
+Personally Identifiable Information (PII)
+En term som används i USA för att beskriva information som kan användas för att identifiera en person.
+
+
+Data Processing
+Alla åtgärder som utförs på personuppgifter, såsom insamling, lagring, ändring, överföring eller radering.
+
+
+GDPR Scope
+GDPR gäller för alla organisationer som behandlar personuppgifter om individer inom EU, oavsett var organisationen är baserad.
+Nyckespelare
+Data Controller
+Den enhet som bestämmer ändamålen och medlen för behandlingen av personuppgifter.
+
+
+Joint Controller
+Två eller fler enheter som gemensamt bestämmer ändamålen och medlen för behandlingen av personuppgifter.
+
+
+Data Processor
+Den enhet som behandlar personuppgifter på uppdrag av den personuppgiftsansvarige.
+
+
+Sub-Processor
+En underleverantör som behandlar personuppgifter på uppdrag av databehandlaren.
+
+
+Supervisory Authorities
+Nationella myndigheter som övervakar tillämpningen av GDPR.
+Personlig data inom IT tjänster
+Typer av personlig data inom IT
+Olika typer av data som kan inkludera användarnamn, IP-adresser, e-postadresser och andra identifierare.
+
+
+Datainsamling
+Processen att samla in personuppgifter genom olika källor, såsom webbformulär, registreringar eller kundinteraktioner.
+
+
+Databehandling
+Alla åtgärder som utförs på personuppgifter, inklusive insamling, lagring, analys och delning.
+
+
+Lagring och Borttagning
+Riktlinjer och procedurer för lagring av personuppgifter så länge som behövs och säker radering när de inte längre behövs.
+
+
+Kommunikation
+Metoder och kanaler för att informera och kommunicera med datasubjekt om behandlingen av deras personuppgifter, inklusive samtyckesinhämtning och information om rättigheter.
+
+
+
+
+Det finns också andra standarder att ha i åtanke när man är verksam inom IT-området, exempelvis ISO 23651-2. De viktigaste delarna är summerade i följande tabell:
+
+
+ISO 12651-2
+
+
+Term
+Beskrivning
+Lagringsplatsen
+En plats där dokument och data förvaras. Det kan vara fysisk lagring, såsom serverhallar, eller molnbaserad lagring.
+Säkerhet och accesskontroll
+System och processer som säkerställer att endast behöriga användare har tillgång till specifika data och system. Detta inkluderar användarautentisering, behörighetskontroll och datakryptering.
+Versionskontroll
+En metod för att spåra och hantera ändringar i dokument och data över tid. Detta gör det möjligt att återgå till tidigare versioner om det behövs och att hålla koll på ändringar och deras upphovsmän.
+Audit Trails
+En logg som dokumenterar alla åtgärder som utförs på data och system, inklusive vem som gjorde vad och när. Detta är viktigt för att säkerställa transparens och för att undersöka incidenter.
+Check-in/Check-out funktion
+En funktion som låter användare "checka in" (lägga upp) och "checka ut" (ta bort) dokument från en central lagringsplats. Detta hjälper till att hantera ändringar och samarbeta på ett strukturerat sätt.
+
+
+
+Analys av ett befintligt avtal inom IT-området
+Exempel: Data Processing Agreement  (hädanefter “DPA”)
+Se bilaga 2 för ett exempel på ett DPA samt nedanstående tabell som tar upp viktiga klausuler/delar:
+
+
+Klausul
+Huvudpunkter
+1. Definitioner och tolkningar
+Definitioner av centrala termer som Company, Data Processor, GDPR, Data Transfer m.m.
+2. Behandling av personuppgifter
+Processorn ska följa alla dataskyddslagar och endast behandla personuppgifter enligt företagets instruktioner.
+3. Personal hos processorn
+Säkerställande av personalens pålitlighet och begränsning av åtkomst till personuppgifter.
+4. Säkerhet
+Implementering av tekniska och organisatoriska åtgärder för att skydda personuppgifter.
+5. Underleverantörer
+Processorn får inte anlita underleverantörer eller avslöja personuppgifter utan företagets tillstånd.
+6. Datasubjekts rättigheter
+Bistånd till företaget för att uppfylla datasubjekts rättigheter och meddela företaget om mottagna begäranden.
+7. Personuppgiftsincident
+Omedelbart meddela företaget om personuppgiftsincidenter och bistå i utredningen och åtgärder.
+8. Dataskyddsbedömning
+Assistera företaget med nödvändiga bedömningar och samråd med tillsynsmyndigheter.
+9. Radering eller återlämnande av personuppgifter
+Radera alla kopior av personuppgifter inom 10 arbetsdagar efter avslutad tjänst.
+10. Revisionsrätt
+Ge företaget tillgång till information och tillåta revisioner för att visa efterlevnad.
+11. Dataöverföring
+Inga dataöverföringar utanför EES utan skriftligt medgivande och säkerställande av adekvat skydd.
+12. Allmänna villkor
+Sekretess och skriftliga meddelanden, inklusive krav på skriftliga medgivanden för informationens användning.
+13. Tillämplig lag och jurisdiktion
+Avtalet styrs av angivna lagar och eventuella tvister ska lösas i angiven domstol.
+
+
+
+
+Del 3: Organisation och administration
+
+Användning av dokument-och ärendehanteringssystem
+
+Dokumentation
+
+Det är viktigt att Molnbolaget AB är medvetna om och har avtal, policys och processer för hur de använder dokument och data i sin verksamhet. Jag har summerat de viktigaste och/eller vanligaste typerna i nedanstående tabeller:
+
+
+Typ av dokument
+Beskrivning
+Exempel på innehåll
+Typer av avtal/dokument/kontrakt
+Dokument med anställda
+Avtal som reglerar relationen mellan Molnbolaget AB och dess anställda, inklusive anställningsavtal, sekretessavtal och arbetsbeskrivningar.
+
+
+Dokument med motparter
+Avtal som Molnbolaget AB ingår med externa parter, såsom kunder, leverantörer och partners. Exempel inkluderar serviceavtal, underleverantörsavtal och licensavtal.
+
+
+Dokument med syfte
+Avtal som reglerar specifika ändamål eller projekt, till exempel projektavtal, utvecklingsavtal och konsultavtal.
+
+
+Dokument internt
+Interna dokument som styr organisationens policyer och procedurer, såsom interna riktlinjer, informationssäkerhetspolicyer och kommunikationsplaner.
+
+
+Typ av dokument
+Beskrivning
+Exempel på innehåll
+Vanliga typer av dokument
+SLA (Service Level Agreement)
+Avtal som beskriver servicenivåer, kvalitetsstandarder och ansvarsområden mellan leverantör och kund.
+
+
+Software Licensing Agreement
+Avtal som reglerar hur programvara kan användas, vem som får använda den och hur licenskostnader ska hanteras.
+
+
+End User License Agreement (EULA)
+Avtal som informerar slutanvändaren om hur och varför deras information kommer att användas, och vilka användningsvillkor som gäller.
+
+
+Data Processing Agreement
+Avtal som beskriver hur data ska behandlas, inklusive insamling, lagring och delning av data i enlighet med dataskyddslagar.
+
+
+Non-Disclosure Agreement (NDA)
+Sekretessavtal som förhindrar avslöjande av konfidentiell information mellan parterna.
+
+
+Master Service Agreement (MSA)
+Ett övergripande avtal som reglerar det allmänna ramverket för hur parterna ska samarbeta och specificerar de tjänster som kommer att levereras.
+
+
+Software Development Agreement
+Avtal som beskriver villkoren för utveckling av programvara, inklusive specifikationer, leveransdatum och betalningsvillkor.
+
+
+Consulting Agreement
+Avtal mellan Molnbolaget AB och en konsult som specificerar arbetsomfattning, betalning och andra villkor.
+
+
+Hardware Purchase Agreement
+Avtal för inköp av hårdvara, som beskriver produktens specifikationer, leveranstid och garantivillkor.
+
+
+Outsourcing Agreement
+Avtal som reglerar outsourcing av tjänster eller funktioner till en tredje part, inklusive underleverantörsavtal.
+
+
+Maintenance/Support Agreement
+Avtal som beskriver villkoren för underhåll och support av produkter eller tjänster, inklusive svarstider och servicestandarder.
+
+
+Contract Lifecycle Management
+
+
+
+
+
+
+Typ av IT-dokument
+Beskrivning
+Exempel på innehåll
+Inventarieförteckning
+Lista över hårdvara och mjukvara för anskaffningsändamål, lagerstatus, och underhållsbehov
+Datorer, servrar, programvarulicenser
+Nätverkstopologi
+Diagram och beskrivningar av nätverksstruktur och logiska sammankopplingar
+Hårdvara, nätverksvägar, felsökningsvägar
+Infrastruktursdokumentation
+Detaljerad dokumentation om nätverks- och infrastrukturskomponenter
+Byggnads- och rumsdokumentation
+Systemdokumentation
+Information om systemkonfigurationer och applikationsuppsättningar
+Webserverkonfiguration, referenser
+SOP (Standard Operating Procedure)
+Tydliga arbetsuppgifter och processbeskrivningar för underhåll och uppdateringar
+Serverunderhåll, uppdateringsprocesser
+Processdokumentation
+Dokumentation av IT-processer och arbetsflöden inom organisationen
+Förändringshantering, mjukvaruutveckling
+Vardaglig dokumentation
+Användarguider, felsökningsguider, och FAQ
+Användarmanualer, incidenthantering
+
+
+Organisering och administration av kunder och ärenden
+Mot bakgrund av ovan följer här en beskrivning på hur Molnbolaget AB skulle kunna organisera och administrera och deras ärenden genom användning av dokument- och ärendehanteringssystem. I denna inlämningsuppgift använder jag Contract Lifecycle Management (hädanefter “CLM”) som ett första exempel och incidenthanteringsystem som ett andra exempel på ett processhanteringssystem. I båda fallen kommer jag även att samt belysa fördelar och eventuell nackdelar med respektive processhanteringssystem.
+
+CLM-system 
+CLM-system är en systematisk metod för att hantera hela livscykeln för ett kontrakt, inklusive dess skapande, förhandling, utförande, efterlevnad och förnyelse eller uppsägning. Målet är att säkerställa att kontrakt hanteras effektivt och uppfyller juridiska och affärsmässiga krav. CLM-system används exempelvis för att organisera avtal, offerter och supportdokumentation och har olika faser:
+
+Kreativa fasen:
+
+
+Dokumentskapande: Utformning av kontraktsutkast med hjälp av mallar och standardklausuler.
+Godkännanden: Interna granskningar och godkännanden innan kontraktet delas med motparten.
+Förhandlingsfasen:
+
+
+Förhandling: Diskutera och justera kontraktsvillkor med motparten.
+Versionering: Hålla reda på olika versioner av kontraktet under förhandlingsprocessen.
+Utförandefasen:
+
+
+Signering: Elektronisk eller fysisk signering av kontraktet.
+Lagring: Centraliserad lagring av det signerade kontraktet för enkel åtkomst och säkerhet.
+Efterlevnadsfasen:
+
+
+Övervakning: Spåra viktiga milstolpar, deadlines och förpliktelser som anges i kontraktet.
+Rapportering: Skapa rapporter för att säkerställa efterlevnad och identifiera eventuella avvikelser.
+Förnyelse/Uppsägning:
+
+
+Förnyelse: Hantera processen för att förnya kontrakt som närmar sig sitt slutdatum.
+Uppsägning: Hantera avslut av kontrakt, inklusive att säkerställa att alla förpliktelser har uppfyllts och att nödvändig dokumentation är avslutad.
+Fördelar med CLM:
+CLM-processer erbjuder många fördelar för företag som vill hantera sina kontrakt på ett effektivt och säkert sätt. Här är några av de viktigaste fördelarna:
+Effektivitet:
+
+
+Automatisering av kontraktshantering minskar manuell arbetsbelastning och minimerar fel.
+Standardiserade processer och mallar för kontraktsskapande sparar tid och resurser.
+Översikt och kontroll:
+
+
+Centraliserad lagring av alla kontrakt gör det enkelt att hitta och hantera dokument.
+Realtidsinsikter och analys hjälper till att övervaka kontraktsstatus och prestation.
+
+Riskhantering:
+
+
+Genom att följa standardiserade processer kan organisationer minska risken för att inte uppfylla avtalade villkor.
+Spårning av deadlines och förpliktelser minskar risken för avtalsbrott.
+
+Efterlevnad:
+
+
+Säkerställer att alla kontrakt följer gällande lagar och regler, vilket minskar risken för juridiska problem.
+Dokumentationsfunktioner hjälper till att visa efterlevnad vid revisioner och inspektioner.
+
+Incidenthanteringssystem
+
+Ett incidenthanteringssystem inom IT är en struktur och verktyg för att identifiera, logga, spåra, och hantera IT-incidenter. Dessa system gör det möjligt för IT-avdelningar att snabbt och effektivt svara på problem, minimera påverkan på verksamheten, och säkerställa att normala operationer återupptas så snart som möjligt. De kan se olika ut beroende på organisation och branch men följande är en bra startpunkt för Molnbolaget AB:
+
+Kundprofilering och Incidentloggning:
+
+
+Varje kund får en detaljerad profil med relevant information som kontakt, avtal och incident-historik.
+Alla incidenter loggas i ett ärendehanteringssystem med unik ID och kopplas till kundens profil.
+
+
+Centraliserat Ärendehanteringssystem:
+
+
+Ett centralt system där alla incidenter registreras, följs upp och hanteras.
+Ärenden kategoriseras efter typ, prioritet och status (öppen, pågående, löst).
+Automatiserade arbetsflöden och notifieringar säkerställer att ärenden hanteras i tid.
+
+
+Dokumenthantering:
+Ett system för att lagra och hantera alla incident-relaterade dokument (guider, support, kommunikation).
+Dokument klassificeras och organiseras med taggar för snabb åtkomst.
+
+
+Spårbarhet och Versionshantering:
+Versionshantering för att spåra ändringar i dokument och ärenden.
+All aktivitet loggas för spårbarhet och revision.
+Versionshistorik visar vem som gjort vad och när.
+
+
+Accesshantering:
+Robust system för att begränsa åtkomst till känslig information baserat på roll och behov.
+Skyddar kunddata och företagshemligheter.
+
+
+Automatisering och Notifikationer:
+Automatiserade arbetsflöden för uppdateringar till kunder om ärenden och lösningar.
+Notifikationer håller kunder och supportteam uppdaterade om ärendestatus.
+
+
+Analys och Rapportering:
+Dataanalys för att övervaka och rapportera incidenttrender, lösningstider och kundnöjdhet.
+Identifiera återkommande problem och förbättra servicekvalitet.
+Regelbundna rapporter ger insikt i effektivitet och förbättringsområden.
+Fördelar med en sådan organisation:
+Effektiv incidenthantering: Snabbare registrering, spårning och lösning.
+Förbättrad kundservice: Bättre och snabbare svar tack vare lättillgänglig information.
+Full spårbarhet och transparens: Enkel uppföljning av ärenden.
+Säkerhet och kontrollerad access: Skydd av kunddata.
+Datadriven förbättring: Kontinuerlig förbättring genom analys och rapportering.
+
+
+Summering/reflektion.
+Genom att kombinera ovan system och processer kan Molnbolaget AB effektivt hantera sina IT-processer, avtal och kundrelationer.
+
+Denna övning har gett mig en djupare förståelse för hur IT-processer kan struktureras och dokumenteras för att säkerställa effektivitet och transparens. Att analysera ett befintligt SLA och ett DPA har ökat min medvetenhet om vikten av tydliga avtal och efterlevnad av lagar och regler inom IT. 
+
+Som jurist vill jag understryka hur avgörande det är att ha en väl fungerande dokumenthantering för att skydda både företaget och kundernas intressen. Det har varit roligt att kunna applicera min tidigare kunskap av kommersiella avtal på ett IT-avtal, en juridisk inriktning som jag inte har jobbat med tidigare. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Källor och referenser:
+Exempel och mallar på Omniway
+
+https://www.wrangle.io/post/how-to-design-a-ticketing-system-process-flow
+
+https://www.fool.com/the-ascent/small-business/it-management/articles/it-tickets/
+
+https://www.proprofsdesk.com/blog/how-to-impement-ticketing-system/
+
+https://blog.invgate.com/how-to-define-a-clear-help-desk-ticketing-process-flow
+
+https://www.coursera.org/articles/sla 
+
+https://itsoftware.se/sla-service-level-agreement/ 
+ https://business.adobe.com/blog/basics/service-level-agreements-slas-a-complete-guide 
+https://getterms.io/resources/free-service-level-agreement-template
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bilaga 1:
+Free Service Level Agreement (SLA) Template
+Introduction
+This Service Level Agreement (“SLA”) is a contract between [ Service Provider Name ] (“Provider”) and [ Customer Name ] (“Customer”) that outlines the quality, availability, and responsibilities associated with the services provided by the Provider. This SLA sets forth the agreed-upon standards, metrics, and procedures to ensure consistent service delivery and manage customer expectations.
+Definitions
+Provider: [ Service Provider Name ], the entity responsible for delivering the services outlined in this SLA.
+Customer: [Customer Name], the entity receiving the services provided by the Provider.
+Services: The specific services covered under this SLA, as described in Section 3.
+Performance Metrics: The standards and metrics used to measure the quality and availability of the services, as outlined in Section 4.
+Service Level Targets: The desired levels of performance for each performance metric, as defined in Section 4.
+Service Credits: Compensation or remedies provided to the Customer in the event of service failures, as detailed in Section 6.
+Services
+The services covered under this SLA include, but are not limited to:
+[ Description of Service 1 ]
+[ Description of Service 2 ]
+[ Description of Service 3 ]
+Performance Metrics
+The performance of the services will be measured based on the following metrics:
+Availability/Uptime Percentage: The percentage of time during which the services are available and accessible to the Customer.
+Response Time: The time taken by the Provider to respond to customer inquiries, requests, or incidents.
+Resolution Time: The time taken by the Provider to resolve customer-reported issues or incidents.
+Service Reliability: The frequency of service interruptions or failures.
+Customer Satisfaction: Customer feedback and satisfaction ratings regarding the quality of services are provided by the customer.
+Service Level Targets
+The following targets have been established for the performance metrics:
+Availability/Uptime Percentage: [ Target Percentage ]
+Response Time: [ Target Timeframe ]
+Resolution Time: [ Target Timeframe ]
+Service Reliability: [ Target Frequency ]
+Customer Satisfaction: [ Target Rating ]
+Service Credits
+In the event that the Provider fails to meet the service level targets outlined in this SLA, the Customer may be eligible to receive service credits as follows:
+Availability/Uptime Percentage: [ Service Credit Percentage ] of monthly service fees for each percentage point below the target uptime percentage.
+Response Time: [ Service Credit Amount ] for each hour of delay beyond the target response time.
+Resolution Time: [ Service Credit Amount ] for each hour of delay beyond the target resolution time.
+Reporting and Monitoring
+The Provider will monitor and report performance metrics on a [ Frequency ] basis. Reports will be provided to the Customer detailing performance against the service level targets.
+Issue Resolution
+The Provider will follow the procedures outlined in the SLA for reporting, escalating, and resolving customer-reported issues or incidents in a timely manner.
+Termination
+Either party may terminate this SLA with [ Notice Period ] written notice if the other party fails to remedy a material breach of the agreement within the specified timeframe.
+Review and Revision
+This SLA will be subject to periodic review and may be revised as necessary to reflect changes in business requirements, service offerings, or performance metrics.
+Governing Law
+This SLA shall be governed by and construed in accordance with the laws of [ Jurisdiction ]. Any disputes arising from or in connection with this SLA shall be resolved through mutual negotiation or mediation.
+Signatures
+This SLA shall become effective upon execution by authorized representatives of both parties.[ Signature of Provider Representative ]                [ Signature of Customer Representative ][ Printed Name of Provider Representative ]        [ Printed Name of Customer Representative ][ Date ]                                                                          [ Date ]
+Conclusion
+This Service Level Agreement outlines the mutual commitments, responsibilities, and expectations between the Provider and the Customer regarding the services provided. By adhering to the terms and standards outlined in this SLA, both parties aim to ensure the delivery of high-quality, reliable services that meet the needs and expectations of the Customer.
+Source: https://getterms.io/resources/free-service-level-agreement-template
+
+
+
+
+
+
+
+
+
+
+
+
+Bilaga 2 
+Data Processing Agreement Free Template
+
+Data Processing Agreement — Your Company
+This Data Processing Agreement (“Agreement“) forms part of the Contract for
+Services (“Principal Agreement“) between
+_____________________
+_____________________
+_____________________
+(the “Company”) and
+_____________________
+_____________________
+_____________________
+(the “Data Processor”)
+(together as the “Parties”)
+WHEREAS
+(A) The Company acts as a Data Controller.
+(B) The Company wishes to subcontract certain Services, which imply the processing of personal data, to the Data Processor.
+(C) The Parties seek to implement a data processing agreement that complies with the requirements of the current legal framework in relation to data processing and with the Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation).
+(D) The Parties wish to lay down their rights and obligations.
+IT IS AGREED AS FOLLOWS:
+1. Definitions and Interpretation
+1.1 Unless otherwise defined herein, capitalized terms and expressions used in this Agreement shall have the following meaning:
+1.1.1 “Agreement” means this Data Processing Agreement and all Schedules;
+1.1.2 “Company Personal Data” means any Personal Data Processed by a Contracted Processor on behalf of Company pursuant to or in connection with the Principal Agreement;
+1.1.3 “Contracted Processor” means a Subprocessor;
+1.1.4 “Data Protection Laws” means EU Data Protection Laws and, to the extent applicable, the data protection or privacy laws of any other country;
+1.1.5 “EEA” means the European Economic Area;
+1.1.6 “EU Data Protection Laws” means EU Directive 95/46/EC, as transposed into domestic legislation of each Member State and as amended, replaced or superseded from time to time, including by the GDPR and laws implementing or supplementing the GDPR;
+1.1.7 “GDPR” means EU General Data Protection Regulation 2016/679;
+1.1.8 “Data Transfer” means:
+1.1.8.1 a transfer of Company Personal Data from the Company to a Contracted Processor; or
+1.1.8.2 an onward transfer of Company Personal Data from a Contracted Processor to a Subcontracted Processor, or between two establishments of a Contracted Processor, in each case, where such transfer would be prohibited by Data Protection Laws (or by the terms of data transfer agreements put in place to address the data transfer restrictions of Data Protection Laws);
+1.1.9 “Services” means the __________________ services the Company provides.
+1.1.10 “Subprocessor” means any person appointed by or on behalf of Processor to process Personal Data on behalf of the Company in connection with the Agreement.
+1.2 The terms, “Commission”, “Controller”, “Data Subject”, “Member State”, “Personal Data”, “Personal Data Breach”, “Processing” and “Supervisory Authority” shall have the same meaning as in the GDPR, and their cognate terms shall be construed accordingly.
+2. Processing of Company Personal Data
+2.1 Processor shall:
+2.1.1 comply with all applicable Data Protection Laws in the Processing of Company Personal Data; and
+2.1.2 not Process Company Personal Data other than on the relevant Company’s documented instructions.
+2.2 The Company instructs Processor to process Company Personal Data.
+3. Processor Personnel
+Processor shall take reasonable steps to ensure the reliability of any employee, agent or contractor of any Contracted Processor who may have access to the Company Personal Data, ensuring in each case that access is strictly limited to those individuals who need to know / access the relevant Company Personal Data, as strictly necessary for the purposes of the Principal Agreement, and to comply with Applicable Laws in the context of that individual’s duties to the Contracted Processor, ensuring that all such individuals are subject to confidentiality undertakings or professional or statutory obligations of confidentiality.
+4. Security
+4.1 Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of Processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, Processor shall in relation to the Company Personal Data implement appropriate technical and organizational measures to ensure a level of security appropriate to that risk, including, as appropriate, the measures referred to in Article 32(1) of the GDPR.
+4.2 In assessing the appropriate level of security, Processor shall take account in particular of the risks that are presented by Processing, in particular from a Personal Data Breach.
+5. Subprocessing
+5.1 Processor shall not appoint (or disclose any Company Personal Data to) any Subprocessor unless required or authorized by the Company.
+6. Data Subject Rights
+6.1 Taking into account the nature of the Processing, Processor shall assist the Company by implementing appropriate technical and organisational measures, insofar as this is possible, for the fulfilment of the Company obligations, as reasonably understood by Company, to respond to requests to exercise Data Subject rights under the Data Protection Laws.
+6.2 Processor shall:
+6.2.1 promptly notify Company if it receives a request from a Data Subject under any Data Protection Law in respect of Company Personal Data; and
+6.2.2 ensure that it does not respond to that request except on the documented instructions of Company or as required by Applicable Laws to which the Processor is subject, in which case Processor shall to the extent permitted by Applicable Laws inform Company of that legal requirement before the Contracted Processor responds to the request.
+7. Personal Data Breach
+7.1 Processor shall notify Company without undue delay upon Processor becoming aware of a Personal Data Breach affecting Company Personal Data, providing Company with sufficient information to allow the Company to meet any obligations to report or inform Data Subjects of the Personal Data Breach under the Data Protection Laws.
+7.2 Processor shall co-operate with the Company and take reasonable commercial steps as are directed by Company to assist in the investigation, mitigation and remediation of each such Personal Data Breach.
+8. Data Protection Impact Assessment and Prior Consultation Processor shall provide reasonable assistance to the Company with any data protection impact assessments, and prior consultations with Supervising Authorities or other competent data privacy authorities, which Company reasonably considers to be required by article 35 or 36 of the GDPR or equivalent provisions of any other Data Protection Law, in each case solely in relation to Processing of Company Personal Data by, and taking into account the nature of the Processing and information available to, the Contracted Processors.
+9. Deletion or return of Company Personal Data
+9.1 Subject to this section 9 Processor shall promptly and in any event within
+10 business days of the date of cessation of any Services involving the Processing of Company Personal Data (the “Cessation Date”), delete and procure the deletion of all copies of those Company Personal Data.
+10. Audit rights
+10.1 Subject to this section 10, Processor shall make available to the Company on request all information necessary to demonstrate compliance with this Agreement, and shall allow for and contribute to audits, including inspections, by the Company or an auditor mandated by the Company in relation to the Processing of the Company Personal Data by the Contracted Processors.
+10.2 Information and audit rights of the Company only arise under section 10.1 to the extent that the Agreement does not otherwise give them information and audit rights meeting the relevant requirements of Data Protection Law.
+11. Data Transfer
+11.1 The Processor may not transfer or authorize the transfer of Data to countries outside the EU and/or the European Economic Area (EEA) without the prior written consent of the Company. If personal data processed under this Agreement is transferred from a country within the European Economic Area to a country outside the European Economic Area, the Parties shall ensure that the personal data are adequately protected. To achieve this, the Parties shall, unless agreed otherwise, rely on EU approved standard contractual clauses for the transfer of personal data.
+12. General Terms
+12.1 Confidentiality. Each Party must keep this Agreement and information it receives about the other Party and its business in connection with this Agreement (“Confidential Information”) confidential and must not use or disclose that Confidential Information without the prior written consent of the other Party except to the extent that:
+(a) disclosure is required by law;
+(b) the relevant information is already in the public domain.
+12.2 Notices. All notices and communications given under this Agreement must be in writing and will be delivered personally, sent by post or sent by email to the address or email address set out in the heading of this Agreement at such other address as notified from time to time by the Parties changing address.
+13. Governing Law and Jurisdiction
+13.1 This Agreement is governed by the laws of _______________.
+13.2 Any dispute arising in connection with this Agreement, which the Parties will not be able to resolve amicably, will be submitted to the exclusive jurisdiction of the courts of _________________, subject to possible appeal to __________________________________.
+IN WITNESS WHEREOF, this Agreement is entered into with effect from the date first set out below.
+Your Company
+Signature ______________________________
+Name: ________________________________
+Title: _________________________________
+Date Signed: ___________________________
+Processor Company
+Signature ______________________________
+Name _________________________________
+Title __________________________________
+Date Signed ____________________________
+Source: Data Processing Agreement (Template) - GDPR.eu
