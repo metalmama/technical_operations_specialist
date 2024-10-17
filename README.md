@@ -1,2 +1,2 @@
 # technical_operations_specialist
-EC  Utbildning Technical  Operations Specialis (TOS) 2024-2025
+EC  Utbildning Technical  Operations Specialist (TOS) 2024-2025
